@@ -694,13 +694,11 @@ public class WrapedRecorder implements SensorEventListener, AWRecorder.OnErrorLi
 //                                if (CustomValue.ONLY_ONE_CAMERA && cameraIndex != 0) {
 //                                    mCamera = Camera.open(cameraIndex);
 //                                }
-//                                if (CustomValue.ONLY_ONE_CAMERA){
-//                                  if (cameraIndex != 0) {
-//                                      mCamera = Camera.open(cameraIndex);
-//                                  }
-//                                }else{
+                                if (!CustomValue.ONLY_ONE_CAMERA){
+                                      mCamera = Camera.open(cameraIndex);
+                                }else{
                                     mCamera = Camera.open(0);
-//                                }
+                                }
                                 if (cameraIndex == RecorderActivity.CAMERA_THIRD) {
                                     Log.d(TAG, "onlyone");
                                     Parameters mParameters = mCamera.getParameters();
