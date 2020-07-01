@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- CDR追加 -->
+    <string name="nightvision_setting">ナイトライト</string>
+    <string name="whitebalance_setting">ホワイトバランス</string>
+    <string name="exposure_setting">光度</string>
+    <string name="color_setting">色</string>
+    <string name="contrast_setting">コントラスト</string>
+    <string name="more_setting">設定</string>
+    
+    <string name="whitebalance_name">ホワイトバランス</string>
+    <string name="color_name">色</string> 
+    <string name="exposure_name">光度</string>
+    <string name="contrast_name">コントラスト</string>
+    
+    <string name="whitebalance_auto">自動</string>
+    <string name="whitebalance_sunny">晴れの日</string>
+    <string name="whitebalance_cloudy">雲の日</string>
+    <string name="whitebalance_incandescent">白熱光</string>
+    <string name="whitebalacn_fluorescent">蛍光</string>
+    
+    
+    
+    <string name="intelligent_detect">知能検査</string>
+    <string name="motion_detect">モーション検出</string>
+    
+    <string name="video_quality">ビデオ品質</string>
+    <string name="picture_quality">写真品質</string>
+    <string name="video_time">ビデオ時間</string>
+    
+    <string name="nightvision">ナイトライト</string>
+    <string name="camera_switch">カメラスイッチ</string>
+    <string name="video_on_power">パワーオンビデオ</string>
+    <string name="screen_sleep">スクリーンスリーブ</string>
+    
+    <string name="date">期日</string>
+    <!-- <string name="time">時間</string> -->
+    <string name="time_watermark">タイムウォーターマーク</string>
+    <string name="language">言語</string>
+    
+    <string name="sd1_format">フォーマット化SDカード</string>
+    <string name="sd2_format">フォーマット化SD2</string>
+    
+    <string name="reset">デフォルト設定に戻ります</string>
+    <string name="update">更新</string>
+    
+    
+    
+    <string name="video_quality_720p">720P</string>
+    <string name="video_quality_1080p">1080P</string>
+    <string name="video_quality_1600p">1600P</string>
+    <string name="video_quality_1296p">1296P</string>
+    
+    <string name="picture_quality_2m">2M</string>
+    <string name="picture_quality_3m">3M</string>
+	<string name="picture_quality_4m">4M</string>
+    <string name="picture_quality_5m">5M</string>
+	<string name="picture_quality_6m">6M</string>
+    <string name="picture_quality_8m">8M</string>
+    
+    <string name="video_time_1min">1min</string>
+    <string name="video_time_2min">3mins</string>
+    <string name="video_time_3min">5mins</string>
+    <string name="video_time_5min">5min</string>
+    
+    <string name="nightvision_auto">自動</string>
+    <string name="nightvision_on">オン</string>
+    <string name="nightvision_off">オフ</string>
+    
+    <string name="camera_switch_front_rear">前+後</string>
+    <string name="camera_switch_front">前</string>
+    <string name="camera_switch_rear">後</string>
+    
+    <string name="screen_sleep_20s">20s</string>
+    <string name="screen_sleep_30s">30s</string>
+    <string name="screen_sleep_1min">1min</string>
+    <string name="screen_sleep_off">オフ</string>
+    
+    <string name="ok">確定</string>
+    <string name="cancel">キャンセル</string>
+    
+    <string name="language_simplified_chinese">中文簡体字</string>
+    <string name="language_traditional_chinese">中文繁体字</string>
+    <string name="language_english">english</string>
+    
+    <string name="sd1_format_or_not">  SDカードをフォーマット化すると全てのデータを削除しますので、SDカードをフォーマット化しますか?</string>
+    <string name="sd2_format_or_not">SD1をフォーマット化しますか?</string>
+    
+    <string name="reset_or_not">デフォルト設定に戻りますか?</string>
+
+    <string name="update_or_not">更新しますか？</string>
+    <string name="update_already_newest">既に最新版です</string>
+    
+    <string name="warning">提示</string>
+    <string name="whether_remove_protect_video_file">これは衝突検出プロテクトファイルですが、削除しますか?</string>
+    <string name="press_back_again_to_quit">もう一度押すと退出します</string>
+    <string name="install_adjust">インストール校正</string>
+	
+    <string name="impact_protected_file">衝突検出プロテクトファイル</string>
+    
+    <string name="record_browser">ビデオブラウザ</string>
+    <string name="goto_record_browser">撮影を停止してビデオファイルの照会に移りますか?</string>
+    <string name="goto_settings">撮影を停止して設定に移りますか?</string>
+    
+    <string name="distance_detect_level">前車衝突敏感度</string>
+    <string name="distance_leve_1">実演モード</string>
+    <string name="distance_leve_1_40">高</string>
+    <string name="distance_leve_2">中</string>
+    <string name="distance_leve_3">低</string>
+    <string name="distance_leve_4">オフ</string>
+    
+    <string name="gsensor_lock_level">衝突ロック敏感度</string>
+    <string name="gsensor_level_1">高</string>
+    <string name="gsensor_level_2">中</string>
+    <string name="gsensor_level_3">低</string>
+    <string name="gsensor_level_4">オフ</string>
+    <string name="gsensor_alarm_level">停車衝突警報敏感度</string>
+    <string name="alarm_level_1">高</string>
+    <string name="alarm_level_2">中</string>
+    <string name="alarm_level_3">低</string>
+    
+    <string name="car_line_level">車道敏感度</string>
+    <string name="car_line_level_1">高</string>
+    <string name="car_line_level_2">中</string>
+    <string name="car_line_level_3">低</string>
+    
+  	<string name="camera_flip">後視カメラ</string>
+  	<string name="flip_enable">オン</string>
+  	<string name="flip_disable">オフ</string>
+  	
+  	<string name="app_exit_dialog_title">退出</string>
+  	<string name="app_exit_dialog_msg">ビデオ撮影を停止し、アプリに退出します.</string>
+  	<string name="app_exit_background_run">バックグラウンド撮影</string>
+  	<string name="format_sdcard_message">SDカードはまだフォーマット化されていません.</string>
+  	<string name="dialog_empty">データがありません</string>
+  	<string name="space_no_enough">スペースが不足しますので、暗号化ビデオ及びTカードビデオを削除してください!</string>
+  	<string name="sdcard_not_found">SDカードを挿入してください！</string>
+  	
+  	<string name="review_select_all">全て選択</string>
+  	<string name="review_unselect_all">全て選択削除</string>
+  	<string name="review_delect">削除</string>
+  	<string name="review_delect_file">選択したファイルを削除しますか？</string>
+  	<string name="button_return">戻る</string>
+  	<string name="device_busy">設備が忙しいので、少し待ってから再度試みてください！</string>
+  	<string name="please_insert_back_cam">バックカメラを挿入してください！</string>
+  	
+  	<string-array name="adas_car_type">
+  	    <item>乗用車</item>
+  	    <item>SUV</item>
+  	    <item>トラック</item>
+    </string-array>
+    <string-array name="adas_car_type_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    <string name="car_type">自動車タイプ</string>
+    <string name="car_type_car">乗用車</string>
+    <string name="car_type_suv">SUV</string>
+    <string name="car_type_truck">トラック</string>
+    <string name="select_car_type">自動車タイプをご選択ください</string>
+    <string name="operating_camera">カメラを操作しています!</string>
+    
+    <string name="shutting_down">シャットダウン中</string>
+    <string name="kaishiluxiang">カメラ撮影を開始します</string>
+	<string name="middlevideo">ミドルビデオ</string>
+	<string name="disconnectrecording">ビデオ撮影は既にオフされています!\nを長く押すと撮影を開始します</string>
+
+	<string name="front_camera_text">前</string> 
+	<string name="back_camera_text">後</string>	 
+</resources>

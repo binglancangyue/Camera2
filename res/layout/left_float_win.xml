@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/left_float_win"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone" >
+
+    <View
+        android:layout_width="@dimen/preview_splite_line_width"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@color/preview_splite_line_color" />
+
+    <TextureView
+        android:id="@+id/left_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/preview_splite_line_width" />
+    
+    <com.android.camera.v66.RecordImageView
+        android:id="@+id/iv_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/record_icon_margin_left"
+        android:layout_marginTop="@dimen/record_icon_margin_top"
+        android:visibility="gone"
+        android:src="@drawable/icon_record_red_point"/>
+
+</RelativeLayout>

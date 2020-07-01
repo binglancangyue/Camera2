@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- CDR增加的 -->
+    <string name="nightvision_setting">Ночное видение</string>
+    <string name="whitebalance_setting">Баланас белого</string>
+    <string name="exposure_setting">Экспозиция</string>
+    <string name="color_setting">Цветность</string>
+    <string name="contrast_setting">Контраст</string>
+    <string name="more_setting">Расширенные настройки</string>
+    
+    <string name="whitebalance_name">Баланас белого</string>
+    <string name="color_name">Цвет</string> 
+    <string name="exposure_name">Яркость</string>
+    <string name="contrast_name">Контраст</string>
+    
+    <string name="whitebalance_auto">Автоматический</string>
+    <string name="whitebalance_sunny">Солнечно</string>
+    <string name="whitebalance_cloudy">Пасмурно</string>
+    <string name="whitebalance_incandescent">Лампа накаливания</string>
+    <string name="whitebalacn_fluorescent">Флуоресцентная лампа</string>
+    
+    
+    
+    <string name="intelligent_detect">Интеллектуальное обнаружение</string>
+    <string name="motion_detect">Обнаружение движения</string>
+    
+    <string name="video_quality">Качество видео</string>
+    <string name="picture_quality">Качество фото</string>
+    <string name="video_time">Время записи</string>
+    
+    <string name="nightvision">Ночное видение</string>
+    <string name="camera_switch">Переключение камеры</string>
+    <string name="video_on_power">Запись при включении питания</string>
+    <string name="screen_sleep">Спящий режим экрана</string>
+    
+    <string name="date">Дата</string>
+    <!-- <string name="time">Время</string> -->
+    <string name="time_watermark">Водяной знак времени</string>
+    <string name="language">Язык</string>
+    
+    <string name="sd1_format">Форматирование карты</string>
+    <string name="sd2_format">Форматирование карты SD2</string>
+    
+    <string name="reset">Вернуть к заводским настройкам</string>
+    <string name="update">Обновление</string>
+    
+    
+    
+    <string name="video_quality_720p">720P</string>
+    <string name="video_quality_1080p">1080P</string>
+    <string name="video_quality_1600p">1600P</string>
+    <string name="video_quality_1296p">1296P</string>
+    
+    <string name="picture_quality_2m">2M</string>
+    <string name="picture_quality_3m">3M</string>
+	<string name="picture_quality_4m">4M</string>
+    <string name="picture_quality_5m">5M</string>
+	<string name="picture_quality_6m">6M</string>
+    <string name="picture_quality_8m">8M</string>
+    
+    <string name="video_time_1min">1 мин</string>
+    <string name="video_time_2min">2 минуты</string>
+    <string name="video_time_3min">3 минуты</string>
+    <string name="video_time_5min">5 минут</string>
+    
+    <string name="nightvision_auto">Автоматически</string>
+    <string name="nightvision_on">Включено</string>
+    <string name="nightvision_off">Выключено</string>
+    
+    <string name="camera_switch_front_rear">Фронтальная + тыловая</string>
+    <string name="camera_switch_front">Фронтальная</string>
+    <string name="camera_switch_rear">Тыловая</string>
+    
+    <string name="screen_sleep_20s">20 секунд</string>
+    <string name="screen_sleep_30s">30 секунд</string>
+    <string name="screen_sleep_1min">1 минута</string>
+    <string name="screen_sleep_off">Выключено</string>
+    
+    <string name="ok">ОК</string>
+    <string name="cancel">Отмена</string>
+    
+    <string name="language_simplified_chinese">Китайский упрощённый</string>
+    <string name="language_traditional_chinese">Китайский традиционный</string>
+    <string name="language_english">Английский</string>
+    
+    <string name="sd1_format_or_not">При форматировании SD карты будут удалены все данные. Продолжить форматирование?</string>
+    <string name="sd2_format_or_not">Форматировать SD карту?</string>
+    
+    <string name="reset_or_not">Продолжить восстановление до заводских настроек?</string>
+
+    <string name="update_or_not">Продолжить обновление?</string>
+    <string name="update_already_newest">Установлено актуальное обновление</string>
+    
+    <string name="warning">Предупреждение</string>
+    <string name="whether_remove_protect_video_file">Всё равно удалить защищённый видео файл?</string>
+    <string name="press_back_again_to_quit">Нажмите НАЗАД ещё раз для выхода</string>
+    <string name="install_adjust">Система содействия водителю</string>
+	
+    <string name="impact_protected_file">Защищённые файлы столкновений</string>
+    
+    <string name="record_browser">Просмотр видео</string>
+    <string name="goto_record_browser">Остановить запись и перейти в режим просмотра видео?</string>
+    <string name="goto_settings">Остановить запись и перейти в режим настроек?</string>
+    
+    <string name="distance_detect_level">Переднее столкновение автомобиля</string>
+    <string name="distance_leve_1">Демонстрационный режим</string>
+    <string name="distance_leve_1_40">Высокая</string>
+    <string name="distance_leve_2">Средняя</string>
+    <string name="distance_leve_3">Низкая</string>
+    <string name="distance_leve_4">закрыть</string>
+	
+    <string name="gsensor_lock_level">Чувствительность датчика столкновения</string>
+    <string name="gsensor_level_1">Высокая</string>
+    <string name="gsensor_level_2">Средняя</string>
+    <string name="gsensor_level_3">Низкая</string>
+    <string name="gsensor_level_4">Отключена</string>
+    <string name="gsensor_alarm_level">Настройка уровня громкости оповещения</string>
+    <string name="alarm_level_1">Высокий</string>
+    <string name="alarm_level_2">Средний</string>
+    <string name="alarm_level_3">Низкий</string>
+    
+    <string name="car_line_level">Уровень линии</string>
+    <string name="car_line_level_1">Высокий</string>
+    <string name="car_line_level_2">Средний</string>
+    <string name="car_line_level_3">Низкий</string>
+    
+  	<string name="camera_flip">Флип камеры</string>
+  	<string name="flip_enable">Включен</string>
+  	<string name="flip_disable">Выключен</string>
+  	
+  	<string name="app_exit_dialog_title">Выход</string>
+  	<string name="app_exit_dialog_msg">Остановить запись и выйти из приложения</string>
+  	<string name="app_exit_background_run">Видео в фоне</string>
+  	<string name="format_sdcard_message">SD-карта не отформатирована</string>
+  	<string name="dialog_empty">Пусто</string>
+  	<string name="space_no_enough">Нет места!</string>
+  	<string name="sdcard_not_found">Пожалуйста, вставьте SD-карту!</string>
+  	
+  	<string name="review_select_all">Отметить все</string>
+  	<string name="review_unselect_all">Снять все отметки</string>
+  	<string name="review_delect">Удалить</string>
+  	<string name="review_delect_file">Удалить выбранные файлы?</string>
+  	<string name="button_return">Возврат</string>
+  	<string name="device_busy">Устройство занято, повторите попытку позже!</string>
+  	<string name="please_insert_back_cam">Пожалуйста, подключите камеру!</string>
+  	
+  	<string-array name="adas_car_type">
+  	    <item>Легковой</item>
+  	    <item>SUV</item>
+  	    <item>Грузовой</item>
+    </string-array>
+    <string-array name="adas_car_type_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    <string name="car_type">Тип кузова автомобиля</string>
+    <string name="car_type_car">Легковой</string>
+    <string name="car_type_suv">SUV</string>
+    <string name="car_type_truck">Грузовой</string>
+    <string name="select_car_type">Пожалуйста, выберите тип кузова автомобиля</string>
+    <string name="operating_camera">Камера работает!</string>
+    
+    <string name="shutting_down">Выключение</string>
+     <string name="kaishiluxiang">Начать запись</string>
+	 <string name="middlevideo">Записанное видео</string>
+	<string name="disconnectrecording">Запись отключена!\nДлительное нажатие запустит запись</string> 
+</resources>

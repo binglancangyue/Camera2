@@ -1,0 +1,45 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory>
+        <SwitchPreference  
+            android:key="key_intelligent_detect"  
+            android:summary="Intelligent Detect"  
+            android:title="open or close intelligent detect" />  
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <ListPreference
+            android:key="key_front_rec_quality"  
+            android:summary="Front Record Quality"  
+            android:title="Select the Front Record Quality"
+            android:dialogTitle="Please select one item"
+            android:entries="@array/front_rec_quality"
+            android:entryValues="@array/front_rec_quality_value" /> 
+        <ListPreference  
+            android:key="key_front_pic_quality"  
+            android:summary="Front Picture Quality"  
+            android:title="Select the Front Picture Quality"
+            android:dialogTitle="Please select one item"
+            android:entries="@array/front_pic_quality"
+            android:entryValues="@array/front_pic_quality_value"/>
+        <ListPreference  
+            android:key="key_back_rec_quality"  
+            android:summary="Back Record Quality"  
+            android:title="Select the Back Record Quality"
+            android:dialogTitle="Please select one item"
+            android:entries="@array/back_rec_quality"
+            android:entryValues="@array/back_rec_quality_value"/>  
+        <ListPreference  
+            android:key="key_back_pic_quality"  
+            android:summary="Back Picture Quality"  
+            android:title="Select the Back Picture Quality"
+            android:dialogTitle="Please select one item"
+            android:entries="@array/back_pic_quality"
+            android:entryValues="@array/back_pic_quality_value"/>
+        <ListPreference  
+            android:key="key_rec_duration"  
+            android:summary="Record Duration"  
+            android:title="set one recorder movie duration"
+            android:dialogTitle="Please select one item"
+            android:entries="@array/rec_duration"
+            android:entryValues="@array/rec_duration_value"/>  
+    </PreferenceCategory>
+</PreferenceScreen>

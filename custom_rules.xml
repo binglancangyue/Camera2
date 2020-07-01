@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="custom_rules" >
+    <tstamp>
+        <format property="current-val" pattern="yyMMddHHmm"></format>
+	    <format property="current-time" pattern="yyyy-MM-dd HH:mm:ss" locale="zh"/>
+	</tstamp>
+	
+	<!--  -->
+	<property name="app-name" value="Camera2"/>
+	<property name="ver-name" value="1.0"></property>
+	<property name="ver-code" value="${current-val}"></property>
+	<property name="client-name" value="Home"></property>
+	<property name="ui-id" value="1"></property>
+	<property name="platform-name" value="C6"></property>
+	<property name="manifest-file" value="AndroidManifest.xml" />
+	<property name="apk-out-dir" value="D:\APKFile"/>
+	<property name="temp-apk" value="temp.apk"/>
+	
+	
+	<!-- 系统签名 -->
+	<property name="java-exe" value="C:\Program Files\Java\jre1.8.0_181\bin\java.exe"></property>
+	<property name="singnal-dir" value="D:\Built-In_APK\5002mstar"/>
+	<property name="signapk-jar" value="${singnal-dir}\signapk.jar"/>
+	<property name="platform-x509" value="${singnal-dir}\platform.x509.pem"/>
+	<property name="platform-pk8" value="${singnal-dir}\platform.pk8"/>
+	<property name="final-apk" value="${client-name}-${app-name}-V${ver-name}.apk"/>
+	
+	<!-- 更新软件本地信息 -->
+	<taskdef name="xmltask" classname="com.oopsconsultancy.xmltask.ant.XmlTask" classpath="D:\Built-In_APK\5002mstar\xmltask.jar"/> 
+		
+	<target name="delay" depends="sign-apk">
+	    <delete file="${apk-out-dir}/${temp-apk}" />
+	</target>
+	
+	
+	<target name="sign-apk" depends="check-apk" if="file.exist">
+	    	<exec executable="${java-exe}">
+			<arg value="-jar" />
+			<arg value="${signapk-jar}" />
+			<arg value="${platform-x509}" />
+			<arg value="${platform-pk8}" />
+			<arg value="${apk-out-dir}/${temp-apk}" />
+			<arg value="${apk-out-dir}/${final-apk}" />
+			</exec>
+	    
+	</target>
+	
+	<target name="check-apk" depends="auto-release">
+    	<available property="file.exist" file="${temp-apk}" filepath="${apk-out-dir}" type= "file"/>
+	</target>
+
+	
+	<target name="auto-release">  
+	<echo>Base path ${basedir}/${manifest-file} current time ${current-time}</echo>
+    <xmltask source="${basedir}/${manifest-file}" dest="${basedir}/${manifest-file}" encoding="utf-8" >  
+        <attr path="//manifest" attr="android:versionName" value="${ver-name}" />  
+        <attr path="//manifest" attr="android:versionCode" value="${ver-code}" />  
+        <attr path="//manifest/application/meta-data[@android:name='client']" attr="android:value" value="${client-name}" />  
+        <attr path="//manifest/application/meta-data[@android:name='ui_id']" attr="android:value" value="${ui-id}" />  
+        <attr path="//manifest/application/meta-data[@android:name='platforms']" attr="android:value" value="${platform-name}" />  
+        <attr path="//manifest/application/meta-data[@android:name='compile']" attr="android:value" value="${current-time}" />  
+    </xmltask>  
+    	<property
+            name="out.final.file"
+            location="${apk-out-dir}/${temp-apk}" />
+        <antcall target="-pre-clean" />
+        <antcall target="release" />
+	</target>
+</project>

@@ -1,0 +1,801 @@
+[33mcommit 32b38056f50b083e9393128ae9016bf0ea95d5a4[m
+Author: Jenchar Fung <Jenchar@qckj.com>
+Date:   Wed Apr 12 19:58:28 2017 +0800
+
+    6.86屏幕左边的布局调下一点
+    
+    Change-Id: I95276b3e9107b38d4b379bc330f612bc435b4862
+
+[33mcommit cc6ae6c71d7a56396d8b9655ba099a9b23e5858d[m
+Author: dongdong <dongdong@example.com>
+Date:   Wed Apr 12 19:54:57 2017 +0800
+
+    camera2-settings-not-hide-after-switch-AB
+    
+    Change-Id: I25432fc142183272d730c8b16d06d2f727f87cd4
+
+[33mcommit 61abad2d16f4a353a1f4c42b8d46a38fbae64ede[m
+Author: fengzhengcai <feng@example.com>
+Date:   Sat Apr 1 16:14:00 2017 +0800
+
+    在6.86屏幕左边显示的两个摄像头的布局往下拉一点
+    
+    Change-Id: I011249ddd13705287b65bf215ef21698d0494b1a
+
+[33mcommit 79f6d7f72008035b243f01db2aef3484699bb9a2[m
+Author: huqiucheng <huqiucheng5@gmail.com>
+Date:   Tue Mar 28 20:27:20 2017 +0800
+
+    添加分屏界面录像操作按钮隐藏功能
+    
+    Change-Id: I5f35a557e0ace1bd1e9b1a9409286cb41aa378c8
+
+[33mcommit b29835551175a92bcc8723b90f1c8d2cd922c523[m
+Author: chenxiaodong <xiaodong@qicheng.com>
+Date:   Tue Mar 7 19:47:58 2017 +0800
+
+    修改后拉拔一半出现倒车影像的问题
+    
+    Change-Id: Ia2f25cee8d1a3bce28cace910e82d670eb568a45
+
+[33mcommit c9eab1fca0127f9a16388be0eb6d3271e1012fe0[m
+Author: chenxiaodong <xiaodong@qicheng.com>
+Date:   Mon Mar 6 19:01:59 2017 +0800
+
+    修改后拉镜像和碰撞灵敏度为可配置
+    
+    Change-Id: Iba3ea319f504b4a4b11269090dfdb18e9e0b33c0
+
+[33mcommit 2f52b49e62e53a9774b4b5d18c58b4eca70dbb85[m
+Author: huqiucheng <huqiucheng5@gmail.com>
+Date:   Sat Mar 4 11:07:07 2017 +0800
+
+    获取抓拍图片路径，延时3秒发送广播
+    
+    Change-Id: I1bdbfce3b02a18777543567017500a38fbb5f668
+
+[33mcommit 4f87b0a17223f740f9f6aa1caa848c26fba6dee0[m
+Author: yu <yu@zqc.com>
+Date:   Mon Feb 20 14:32:19 2017 +0800
+
+    后拉录像视频添加声音
+    
+    Change-Id: I93b484d32047c02b7debccaba6966aabcce44051
+
+[33mcommit 53ced66bcd09bc295f2807539413d7a29c01d65b[m
+Author: yu <yu@zqc.com>
+Date:   Mon Feb 20 10:32:07 2017 +0800
+
+    降低碰撞灵敏度
+    
+    Change-Id: I1796301c7fb141c9d0484933613f8e2f5952b19d
+
+[33mcommit 4aa5f54158d4c8c1e4fde8a09116a56803e33d99[m
+Author: chenxiaodong <xiaodong@qicheng.com>
+Date:   Mon Feb 20 10:04:23 2017 +0800
+
+    还原碰撞灵敏度为中等
+    
+    Change-Id: I6f818536ce247db399bbab93ff42a29a6acaff39
+
+[33mcommit f76995a9ea5af29313c57715995266aa4e7d1851[m
+Author: yu <yu@zqc.com>
+Date:   Fri Feb 10 09:23:19 2017 +0800
+
+    修复需要多次点击back键才能返回主页面
+    
+    Change-Id: Ie38a53fa45afb7dad2db9f4e2f3e3b7fa22ab1e9
+
+[33mcommit bdfc32e65a8e49412da5dc01662e35ad300e80c6[m
+Author: chenxiaodong <xiaodong@qicheng.com>
+Date:   Mon Feb 6 15:07:58 2017 +0800
+
+    修改camera需要按多次返回才退出的问题
+    
+    Change-Id: I48fb460a8500fc2d00f439ce1a92843d48aa6091
+
+[33mcommit 14df0cbae3f338394180334e146b8e38c8fabec1[m
+Author: chenxiaodong <xiaodong@qicheng.com>
+Date:   Tue Jan 3 16:39:48 2017 +0800
+
+    720P插值1080P
+    
+    Change-Id: I2ce38c236e61dbb361c865ef09f2073d3f5248ac
+
+[33mcommit e7bdb174da488e575f74861dee8cfe4f98fae249[m
+Author: limingfeng <limingfeng@allwinnertech.com>
+Date:   Fri Dec 23 14:27:54 2016 +0800
+
+    update to v1.1.7-20161223,modify setVideoSize api
+    
+    Main modify:
+    1.support set different size of in and out
+      setVideoSize(inputw,inputh,outputw,outputh)
+    2.compalible the old setVideoSize(int,int)
+    
+    relate repo:
+    1.frameworks/av
+    
+    Signed-off-by: limingfeng <limingfeng@allwinnertech.com>
+    
+    Change-Id: I0c4d9032d53d634c7742a0c8e1e36d686e715d94
+
+[33mcommit cbcbcaeb9a872b957cb804de2fc608a271b513ba[m
+Author: yu <yu@zqc.com>
+Date:   Mon Dec 26 16:05:27 2016 +0800
+
+    支持英语和修复概率加锁不播报问题
+    
+    Change-Id: If6cf824b2cc7b8e24061e59546d0ab120228e4b0
+
+[33mcommit 73d46db6d32767d140c359f3ff0abc4c7d92d2e7[m
+Author: yu <yu@zqc.com>
+Date:   Mon Dec 19 16:25:49 2016 +0800
+
+    修复概率性停止录像加锁图标为未显示为解锁状态
+    
+    Change-Id: I81f501d9b5f255a157d7076168cfa6204d8d3c40
+
+[33mcommit ddcf04ba066f0fb2aea23bdee875de7772f65ed0[m
+Author: yu <yu@zqc.com>
+Date:   Mon Dec 19 15:54:59 2016 +0800
+
+    修复一个无语的问题
+    
+    Change-Id: I818f65874da331e863a20ec2208a649fa6dea6cf
+
+[33mcommit ce59388abcb79e3c6464f6f0510823c8bf9fc4cb[m
+Author: yu <yu@zqc.com>
+Date:   Mon Dec 19 13:52:22 2016 +0800
+
+    修复概率前视在B区时，摇晃加锁状态异常
+    
+    Change-Id: I102a6a8a46aa5bb47765bedc9f73cf556eb5dd4f
+
+[33mcommit 326e5fee7547e8c8f5a9e5140ea16836e35b0b6b[m
+Author: huqiucheng <huqiucheng5@gmail.com>
+Date:   Mon Dec 19 10:11:52 2016 +0800
+
+    添加监听广播结束相机应用
+    
+    Change-Id: I16d870b6620ce483dd3c78b9cefd5515ba985616
+
+[33mcommit 9b8e83679a7163ec7523b26101555ffa635387ec[m
+Author: huqiucheng <huqiucheng5@gmail.com>
+Date:   Fri Dec 16 14:58:04 2016 +0800
+
+    拔掉gps重置经纬度
+    
+    Change-Id: I4e23bf1f0d6dcd969ecd870c88297468b706d2ec
+
+[33mcommit 97fcff30b60a76dd667d9fc8074aa22f3a2702f6[m
+Author: yu <yu@zqc.com>
+Date:   Fri Dec 16 14:50:27 2016 +0800
+
+    修复有时候长按悬浮窗无作用
+    
+    Change-Id: Ibd215f9081583947836052c2604ddc23e0f67db1
+
+[33mcommit 4af5ae91aadb8290078c2f3d70aa47fc350c4493[m
+Author: yu <yu@zqc.com>
+Date:   Fri Dec 16 09:57:50 2016 +0800
+
+    修改加锁窗口跳转
+    
+    Change-Id: I6724e96b2095b04918f33081b312e3ebbd774759
+
+[33mcommit b47092f3c9a9979b7568610330473e693c2bbdaa[m
+Author: huqiucheng <huqiucheng5@gmail.com>
+Date:   Tue Dec 13 19:00:16 2016 +0800
+
+    添加预览界面gps水印
+    
+    Change-Id: I73e1957b0a9c04fe2130fde621aeba3a69951bbc
+
+[33mcommit a9c2d4a56d29a19973b5cf6d19bed630613dc63b[m
+Author: yu <yu@zqc.com>
+Date:   Tue Dec 13 15:29:41 2016 +0800
+
+    修改循环加锁录像不解锁和加锁不录像问题
+    
+    Change-Id: Ifc7004973b76d22747df0257a323e0e176220c03
+
+[33mcommit 01afe450dc94d3c47e8f5b4e31cc29d994c5b232[m
+Author: yu <yu@zqc.com>
+Date:   Mon Dec 12 10:00:26 2016 +0800
+
+    增加设置界面与悬浮窗的浮动和插入后拉时增加500ms延时
+    
+    Change-Id: I758db9a7f80bcace0b2b6a30bd62cd437c1a638f
+
+[33mcommit 6557831cd5e98c9e086ab6b6ae6d2968ff152d93[m
+Author: yu <yu@zqc.com>
+Date:   Sat Dec 3 09:20:42 2016 +0800
+
+    修复后台不能语音加锁和开机概率性加锁但不录像问题
+    
+    Change-Id: I8f4ce01e6bf33ffd397ee7d49d429d69d6886ff5
+
+[33mcommit c000f6c262420034448c19e98f2873a1fa645a6a[m
+Author: yu <yu@zqc.com>
+Date:   Fri Dec 2 15:06:35 2016 +0800
+
+    修复语音后台无法加锁
+    
+    Change-Id: I618b82f9d42fc2ff5b7b77c5cb6018944f9dc624
+
+[33mcommit 2f89e49ccdef120bfa3e19edd5ffe26341399ed2[m
+Author: chenxiaodong <xiaodong@qicheng.com>
+Date:   Wed Nov 30 14:38:37 2016 +0800
+
+    修改接着快速倒车开机的时候后拉镜像不起作用的问题
+    
+    Change-Id: Id9ff46a6721ca40eedb9041f88c3251892f3273c
+
+[33mcommit d5507506362f7cc905e9737a395fd934e72f87ef[m
+Author: yu <yu@zqc.com>
+Date:   Wed Nov 30 14:05:28 2016 +0800
+
+    双录下点击后视镜像崩溃问题
+    
+    Change-Id: I23951e5bee152490067d4c31dee081aa9123ecfb
+
+[33mcommit cd652b31adeb4833e3dbc2b176923c09aad55b89[m
+Author: huqiucheng <huqiucheng5@gmail.com>
+Date:   Wed Nov 30 10:39:57 2016 +0800
+
+    添加gps水印
+    
+    Change-Id: I001ffd126533e11d7ec8dc6de26964f6623871ee
+
+[33mcommit d9821b81db64a167408a0f5075dd30d9b949e734[m
+Author: yu <yu@zqc.com>
+Date:   Wed Nov 30 10:27:04 2016 +0800
+
+    在设置界面增加控制中录的开关按钮
+    
+    Change-Id: I0c043a263267ed0eaebf9585923fc8779c0d4b73
+
+[33mcommit b9b762785e7c37648736d240244b0a95790f130d[m
+Author: yu <yu@zqc.com>
+Date:   Mon Nov 28 17:22:19 2016 +0800
+
+    兼容双录
+    
+    Change-Id: Id46756556b89274c53d361dc580e72ef3e939e1c
+
+[33mcommit 25c36b38a4409c0b913539dd2aaf22ca57ebeeff[m
+Author: huqiucheng <huqiucheng5@gmail.com>
+Date:   Mon Nov 28 10:13:37 2016 +0800
+
+    提高Camera2进程优先级
+    
+    Change-Id: Ib4dc317643bdac8f7d37751273c0d0fe58de1dff
+
+[33mcommit 07cfe1428c96063c891baa121e8589a80cd521c3[m
+Author: huqiucheng <huqiucheng5@gmail.com>
+Date:   Fri Nov 25 17:50:44 2016 +0800
+
+    解决语音控制录像一分钟后不继续录像问题
+    
+    Change-Id: I31ec8ba53fd0264abd8ad3665ed0c6f703cb72e1
+
+[33mcommit 15894f3d2e1463569595156984c0fb268389dad5[m
+Author: yu <yu@zqc.com>
+Date:   Fri Nov 25 16:26:11 2016 +0800
+
+    增加长按中路悬浮窗开启/关闭中录录像功能
+    
+    Change-Id: I48f7e03f729e209af0ff56e392e1864250ac08b9
+
+[33mcommit e2674beef42ba021d4dfce39276bb48d9ac1c06e[m
+Author: huqiucheng <huqiucheng5@gmail.com>
+Date:   Fri Nov 25 14:58:59 2016 +0800
+
+    修改刷新录像时间为500ms
+    
+    Change-Id: I667406da1aeb3252d26c315b5709cfa1a4236d00
+
+[33mcommit 2aec38e89a2486439abb21121c7ec367f674d70a[m
+Author: huqiucheng <huqiucheng5@gmail.com>
+Date:   Fri Nov 25 14:44:24 2016 +0800
+
+    修改在没有显示预览界面语音开始录像但是未录像问题
+    
+    Change-Id: I96f65a3095665df449a9f265cb6519a1aecab94f
+
+[33mcommit 64d2e48ccaed3abf388ccd7e52c384858ac95f7c[m
+Author: huqiucheng <huqiucheng5@gmail.com>
+Date:   Fri Nov 18 17:03:12 2016 +0800
+
+    添加开始/停止录像时发送广播
+    
+    Change-Id: I9d9e2404bd00c8a7bd2a765c19dda83c19e2c6b1
+
+[33mcommit 1cd8f6ed3adc62aa7da7c75919b2919e9341f0f9[m
+Author: yu <yu@zqc.com>
+Date:   Fri Nov 18 17:12:56 2016 +0800
+
+    修改拍照的相片名称
+    
+    Change-Id: I399fa41461cb0453d2df1ab30f079b0d7d6e45ae
+
+[33mcommit cab988bafd6a0bbf50041a17ca76096b9c8fede3[m
+Author: yu <yu@zqc.com>
+Date:   Fri Nov 18 16:43:29 2016 +0800
+
+    修复拍照只能拍到两张的问题
+    
+    Change-Id: Ifd90d01ccda5a443a3015b2a521723a6cb08afbd
+
+[33mcommit 371527bcbed43ec2e06b204648556e568153233d[m
+Author: yu <yu@zqc.com>
+Date:   Fri Nov 18 15:58:04 2016 +0800
+
+    修改摇晃加锁为只加锁当前文件
+    
+    Change-Id: If10c5ebe56afeaf3f9fc1083685d8a9e62c4ac19
+
+[33mcommit b5383d5946df684b701b19db94924984b2bf1987[m
+Author: yu <yu@zqc.com>
+Date:   Tue Nov 15 13:46:46 2016 +0800
+
+    增加中录录音
+    
+    Change-Id: I747406c433932063b716e06dc09df4f04d58f308
+
+[33mcommit a4131a048435ab5023ebbf69634dc771f50a0bd6[m
+Author: yu <yu@zqc.com>
+Date:   Mon Nov 14 15:02:32 2016 +0800
+
+    修复在无SD卡情况下依旧能够加锁及格式化SD卡问题
+    
+    Change-Id: Ie200e384675da1c10d9e236034f103d54ae67694
+
+[33mcommit e32b4012cf996ac714fc6abd5cd78dda2c127268[m
+Author: yu <yu@zqc.com>
+Date:   Sat Nov 12 09:25:12 2016 +0800
+
+    读取配置文件来显示双录和三录的设置界面和添加语音控制录音
+    
+    Change-Id: I981009a599ed91ea6f92bc1b45f21c267672d75c
+
+[33mcommit 205b55b8ab72860b2e8e71d8b6f666876b00526d[m
+Author: yu <yu@zqc.com>
+Date:   Wed Nov 2 17:31:44 2016 +0800
+
+    读取配置文件来显示设置界面和添加一些语音
+    
+    Change-Id: I0102e301f6d573216bfc003dcfea9c74a31b2924
+    
+    Conflicts:
+    
+    	src/com/android/camera/v66/RecordService.java
+
+[33mcommit f607d352cc9ab654fdc6314fbe27b47b87ef15bd[m
+Author: yu <yu@zqc.com>
+Date:   Sat Oct 22 15:17:39 2016 +0800
+
+    增加了一些语音提示和小功能
+    
+    Change-Id: I4fd3806beb344070549e3c9bf3fa3ddb74b03e81
+
+[33mcommit 117614552a515de3e133f06855b2ad0b52285dda[m
+Author: yu <yu@zqc.com>
+Date:   Sat Oct 22 15:09:17 2016 +0800
+
+    增加了一些语音提示
+    
+    Change-Id: If85872a51a99300045d79953b55d008a6cbdc944
+
+[33mcommit 6a549d03c3f999b83e6c051c0c2a28eb7066c682[m
+Author: luobolong <luobolong@allwinnertech.com>
+Date:   Thu Nov 10 16:09:17 2016 +0800
+
+    camera2: time reset back 00:01 to 00:00 when swtiching file
+    
+        reason: reset ui after file swtiched
+    
+        fix: do not reset ui after file switched
+    
+    Change-Id: I854f62dbfad10568c6be9a48128a9c293db13c95
+    Signed-off-by: luobolong <luobolong@allwinnertech.com>
+
+[33mcommit b258a29f2934ffec1dc7868f406df99b45063a8e[m
+Author: chenxiaodong <xiaodong@qicheng.com>
+Date:   Fri Nov 4 14:09:06 2016 +0800
+
+    加快显示倒车时间
+    
+    Change-Id: Ia1057c5480a0b9dc490b183734ab0a077a670184
+
+[33mcommit 5dd9ce5e6b95814c5a66b1bf020737ca499d8508[m
+Author: huqiucheng <huqiucheng5@gmail.com>
+Date:   Tue Nov 1 11:39:30 2016 +0800
+
+    修改摄像头停止预览调用方法
+    
+    Change-Id: I28b57162d01640f6d4e99ae91cd84757b82a75d7
+
+[33mcommit 1c67b2a8117abac001364492ad6a5d9a80ac60ba[m
+Author: chenxiaodong <xiaodong@qicheng.com>
+Date:   Fri Oct 28 11:34:29 2016 +0800
+
+    修改三路和双路的兼容
+    
+    Change-Id: I11c38a3fdc37e97ba1a9d34e67c6bb917ab99dbf
+
+[33mcommit f306f21d2becb676e40119560f2ea69afcf936a5[m
+Author: huqiucheng <huqiucheng5@gmail.com>
+Date:   Fri Oct 28 11:32:15 2016 +0800
+
+    添加接受屏保广播的action
+    
+    Change-Id: I13c2ad5f0dc29ac29a20f276510ce214955b8e49
+
+[33mcommit 14ca72218b77187e7bb81803438a5765b40f2427[m
+Author: chenxiaodong <xiaodong@qicheng.com>
+Date:   Thu Oct 27 21:08:35 2016 +0800
+
+    缩短提示请插入后拉的时间
+    
+    Change-Id: Ie089fbe255fa9cadfb6b881dcb2a125bd5a8e6aa
+
+[33mcommit 07d9b0e8b9c64383d1abe0472e893db4a579ffaf[m
+Author: chenxiaodong <xiaodong@qicheng.com>
+Date:   Thu Oct 27 16:17:40 2016 +0800
+
+    Revert "后拉拔出时 后拉移到小窗口"
+    
+    This reverts commit a51973d3b70605e077a18865919bfa395e644c9f.
+    
+    Conflicts:
+    
+    	src/com/android/camera/v66/PreviewFragment.java
+    
+    Change-Id: I183db53e9d541c82fac9ea0ee35b71aab6f27423
+
+[33mcommit 17dd63d989eb83512d86db6ca9ac969c0e7b7ae1[m
+Author: chenxiaodong <xiaodong@qicheng.com>
+Date:   Thu Oct 27 16:12:08 2016 +0800
+
+    camera2-ablurred-screen-after-back-cam-out
+    
+    Change-Id: I3762f65df6e9603635b029f27db70266b4af3193
+
+[33mcommit a51973d3b70605e077a18865919bfa395e644c9f[m
+Author: chenxiaodong <xiaodong@qicheng.com>
+Date:   Tue Oct 25 19:28:26 2016 +0800
+
+    后拉拔出时 后拉移到小窗口
+    
+    Change-Id: I53a0ce4f89fe28e647380adcb8d728a577aa5a5a
+
+[33mcommit 27d8a8b2a03c073df32fc7787133d34b1d815b49[m
+Author: luobolong <luobolong@allwinnertech.com>
+Date:   Tue Oct 25 17:19:23 2016 +0800
+
+    camera2: flash black when floating
+    
+        reason: startid is not reset
+    
+        fix: reset startid before float
+    
+    Change-Id: I19fd14ebea2395bd0b31b445dca1eec79f27cd1b
+    Signed-off-by: luobolong <luobolong@allwinnertech.com>
+
+[33mcommit a56e6062c2926226e8d3fd0986367214c89633b0[m
+Author: luobolong <luobolong@allwinnertech.com>
+Date:   Tue Oct 25 18:32:54 2016 +0800
+
+    camera2: support 2 and 3 cams id to index
+    
+    Change-Id: I63b577dd7828dfc0e7ffe963493d2e0f20966a0a
+    Signed-off-by: luobolong <luobolong@allwinnertech.com>
+
+[33mcommit 9e0400f0ebfe5c561e996f57a4bdc8f89bd1e06f[m
+Author: chenxiaodong <xiaodong@qicheng.com>
+Date:   Tue Oct 25 10:11:38 2016 +0800
+
+    修改三路切换逻辑错误
+    
+    Change-Id: I3ec220861390347d55958d08846032a68b72698c
+
+[33mcommit c3c1e546127637a6d5ec805dc5584cfc39928be3[m
+Author: huqiucheng <huqiucheng5@gmail.com>
+Date:   Sat Oct 22 15:15:36 2016 +0800
+
+       添加接受屏保开启关闭广播，处理开启/关闭录像预览功能
+    
+    Change-Id: Ia9c2c9c2d352c1281aacb2aa935e3e925b9e3938
+
+[33mcommit 898932987a9a7f524436d5790f448b3cf2c431f7[m
+Author: luobolong <luobolong@allwinnertech.com>
+Date:   Fri Oct 21 19:46:05 2016 +0800
+
+    camera2: bind bak cam to top and third to bottom
+    
+    Change-Id: I23a6dd47277a912cad6a0b259cdb4ffd0db38808
+    Signed-off-by: luobolong <luobolong@allwinnertech.com>
+
+[33mcommit 44703f173f52081612255071fec9ce4f56ab78dd[m
+Author: chenxiaodong <xiaodong@qicheng.com>
+Date:   Sat Oct 15 10:56:54 2016 +0800
+
+    3路摄像头支持修改
+    
+    Change-Id: Ief46994003fdb6df699f94396e38cc14c65f96de
+
+[33mcommit 3d83c41665feb8d6ef79647c0e5558d1fce93f62[m
+Author: yu <yu@zqc.com>
+Date:   Sat Oct 15 10:18:26 2016 +0800
+
+    增加了一些功能
+    
+    Change-Id: I4aa09520f4e46a15529007a4745b5c0560e92785
+
+[33mcommit 43471ad4e7c6117cb555f6d914f1fd2a793923b8[m
+Author: chenxiaodong <xiaodong@qicheng.com>
+Date:   Tue Sep 27 10:24:33 2016 +0800
+
+    录像库更新
+    
+    Change-Id: Iaa33125c5ed44d5ec6a0bfaa32d863eb46b93b08
+
+[33mcommit a773ffc4e0f24827c0fbf8e9e7f1dd90ad74044e[m
+Author: luobolong <luobolong@allwinnertech.com>
+Date:   Tue Sep 13 18:59:24 2016 +0800
+
+    camera2: cameraservice crash when set null to preview
+    
+        reason: null is not handled
+    
+        fix: avoid null to set
+    
+        related repo: none
+    
+    Change-Id: I155ab7e987145822a999519b2b52b5c79fe7589b
+    Signed-off-by: luobolong <luobolong@allwinnertech.com>
+
+[33mcommit 1e82c917e230c6ceee156f82a1b5f45e2cf8ca2f[m
+Author: yu <yu@zqc.com>
+Date:   Thu Sep 22 19:45:14 2016 +0800
+
+    增加视频列表停止录像功能
+    
+    Change-Id: I6d2b7bc96cf1e7cfeef80b0af9c2d28ec63ec751
+
+[33mcommit 93863ae5af1a3e5ba58ead5b2b746e12a3da0db8[m
+Author: luobolong <luobolong@allwinnertech.com>
+Date:   Fri Sep 2 18:50:12 2016 +0800
+
+    camera2: reverse cam can not show
+    
+        reason: surface is not ready before set to camera
+    
+        fix: wait util surface is ready, and then set to cam
+    
+    Change-Id: I1beb115f854ffd651372722128c57177b8a51cda
+    Signed-off-by: luobolong <luobolong@allwinnertech.com>
+
+[33mcommit a0bcd9a5b3da383c2ed91a44b04a0bb12fceca09[m
+Author: yu <yu@zqc.com>
+Date:   Wed Sep 14 10:34:13 2016 +0800
+
+    增加丛林猫拍照
+    
+    Change-Id: I46172d0adead1a5b95c8646252c907012ab3294b
+
+[33mcommit c3217e339d62d45d59aa6dffeebb107d1231a6dd[m
+Author: yu <yu@zqc.com>
+Date:   Wed Sep 14 10:33:48 2016 +0800
+
+    修改倒车检测时间
+    
+    Change-Id: I01027043067c32ddb6a645093a9bbd558ed86a94
+
+[33mcommit 92633acea6cde65088c6441c6327f47a87f5dca8[m
+Author: yu <yu@zqc.com>
+Date:   Mon Sep 12 11:17:01 2016 +0800
+
+    camera一些修改
+    
+    Change-Id: I37c7a2469fe20aea113e52c761563e08fee9a378
+
+[33mcommit 2c30447b63830311463fe7709dc5ef8c33f94683[m
+Author: yu <yu@zqc.com>
+Date:   Fri Sep 9 19:26:18 2016 +0800
+
+    temp
+    
+    Change-Id: I8d72220abcffbf9a3b78ad0ba9bcd6dee3d82047
+
+[33mcommit 1e182f759f1ae411e7dd22fd4f360b670ba7a93e[m
+Author: chenxiaodong <xiaodong.chen@zhiqicheng.com>
+Date:   Thu Sep 8 20:22:00 2016 +0800
+
+    增加拍照键和录像键
+    
+    Change-Id: I3b3dba44d2db62a026b17419189573c87017becf
+
+[33mcommit 1b5d113f9fcd15f587be7446cd6ccef177680bb0[m
+Author: luobolong <luobolong@allwinnertech.com>
+Date:   Thu Sep 1 18:19:10 2016 +0800
+
+    camera2: killed by vold when plug in and out sd card quickly
+    
+        reason: files were still opened by camera2
+    
+        fix: close all files when sd out
+    
+        related repo: none
+    
+    Change-Id: I17da19d65f270ccac7a826db5f535eb22c89d3a4
+    Signed-off-by: luobolong <luobolong@allwinnertech.com>
+
+[33mcommit f91746afadf0cab4184fbd81a05c8a48f7c6ffba[m
+Author: luobolong <luobolong@allwinnertech.com>
+Date:   Tue Aug 30 15:20:31 2016 +0800
+
+    camera2: surfaceview and ui move in different time when B to C
+    
+        reason: two layer were moved in diff way.
+    
+        fix: hide and show when moving
+    
+        related repo: none
+    
+    Change-Id: Id8343db58db21c7ce30aba239cb044877eb44fbf
+    Signed-off-by: luobolong <luobolong@allwinnertech.com>
+
+[33mcommit ba0b83750c28364477c6f3f1b9fccb9232cf2cbf[m
+Author: luobolong <luobolong@allwinnertech.com>
+Date:   Tue Aug 30 15:17:05 2016 +0800
+
+    camera2: launcher show up when switch A to B
+    
+        reason: activity destroy and reset start has space
+    
+        fix: just switch view but activity
+    
+        related repo: none
+    
+    Change-Id: Id609b81274db5695d2016d309cb7f0e491ea835e
+    Signed-off-by: luobolong <luobolong@allwinnertech.com>
+
+[33mcommit 06b33e95cacb4d96c054ab93954cd958325d9a74[m
+Author: luobolong <luobolong@allwinnertech.com>
+Date:   Tue Aug 30 15:13:03 2016 +0800
+
+    Camera2: cannot fresh ui after click record button
+    
+        reason: lost callback interface after switch windows
+    
+        fix: reset callback only when itself being destroyed
+    
+        related repo: none
+    
+    Change-Id: Id5c9c05a86d6668f7df9470b716729e7c3557d3f
+    Signed-off-by: luobolong <luobolong@allwinnertech.com>
+
+[33mcommit d73921c297b8196a0e7cae6df131e7520da0bb38[m
+Author: luobolong <luobolong@allwinnertech.com>
+Date:   Fri Aug 26 17:05:21 2016 +0800
+
+    camera2: flash when click home let back move B to A
+    
+        reason: activity was destroying and received start activity again
+    
+        fix: set views visible before destroying
+    
+        related repo: none
+    
+    Change-Id: Iab740b3b42956714fcda2e6d0a1d7ac65be0babf
+    Signed-off-by: luobolong <luobolong@allwinnertech.com>
+
+[33mcommit a6cd4e37434542167f9a89dca472a8e123cd1055[m
+Author: luobolong <luobolong@allwinnertech.com>
+Date:   Thu Aug 25 17:12:23 2016 +0800
+
+    camera2: cannot stop recorder
+    
+        reason: camera is null, state should not work
+    
+        fix: state is idle when camera is null
+    
+        related repo: none
+    
+    Change-Id: I6ad6c90dd101b2b63ef2291bf61cdc61ecd657a7
+    Signed-off-by: luobolong <luobolong@allwinnertech.com>
+
+[33mcommit 7b903b2a87942dc37c6fe601042fbfc88456470f[m
+Author: luobolong <luobolong@allwinnertech.com>
+Date:   Thu Aug 25 17:10:38 2016 +0800
+
+    camera2: date is too long to show
+    
+        reason: screen too small to handle
+    
+        fix: cut length of string
+    
+        related repo :none
+    
+    Change-Id: Iaeee971ac22d75fa274cbba52a9b46dc72d1fc16
+    Signed-off-by: luobolong <luobolong@allwinnertech.com>
+
+[33mcommit dd7e5a22d814a40faf36e4324692cca6e0f94036[m
+Author: chenxiaodong <xiaodong.chen@zhiqicheng.com>
+Date:   Thu Aug 25 18:31:21 2016 +0800
+
+    0002-Camera2-flash-reverse-ui-when-pluging-back-cam-out-o.patch
+    
+    Change-Id: I2ed1c2d156104233f62d944e7920883c8c3af7fc
+
+[33mcommit 1c1b9550c9d66410ad8e06fad1e9262426775e72[m
+Author: luobolong <luobolong@allwinnertech.com>
+Date:   Thu Aug 25 17:06:08 2016 +0800
+
+    camera2: not support qicheng 1280*480 screen
+    
+        reason: not adjusted
+    
+        fix: fix dimens
+    
+        related: none
+    
+    Change-Id: I384cd7aadf0f32b9cfeb87aaf0ceac0bc0187133
+    Signed-off-by: luobolong <luobolong@allwinnertech.com>
+
+[33mcommit 946801c64442901485d55ce6d2ae1379af0f8bc5[m
+Author: chenxiaodong <xiaodong.chen@zhiqicheng.com>
+Date:   Wed Aug 24 18:33:19 2016 +0800
+
+    0004-qc-modify.patch
+    
+    Change-Id: I659b6238dd6173adc34264677a762fcd8153f5c0
+
+[33mcommit 0539c11b0e6d3c19ea31659e85f5e1d0bb7df935[m
+Author: chenxiaodong <xiaodong.chen@zhiqicheng.com>
+Date:   Wed Aug 24 18:31:28 2016 +0800
+
+    0002-qc-camera-modify.patch
+    
+    Change-Id: I12c2371aa0cdfa5da0922f41c8f7a8f9e69a66c5
+
+[33mcommit 79635f9762fa0dae6dfcedcfedb07a948388d9b9[m
+Author: chenxiaodong <xiaodong.chen@zhiqicheng.com>
+Date:   Wed Aug 24 18:24:13 2016 +0800
+
+    替换全志新的camera apk
+    
+    Change-Id: I97cbf6325d863e1a3eb9d90530b389569b7fc3b7
+
+[33mcommit 6e99f0a726016f8d7107d9e30687eaca4e3758dd[m
+Author: chenxiaodong <xiaodong.chen@zhiqicheng.com>
+Date:   Wed Aug 24 18:00:36 2016 +0800
+
+    qc modify
+    
+    Change-Id: Ia4cbf8d90fd39d52e9258bc16c7cce0283a8700e
+
+[33mcommit 96dbeaa94404c03c8815fb96d1885b24bff600e8[m
+Author: chenxiaodong <xiaodong.chen@zhiqicheng.com>
+Date:   Fri Aug 12 19:57:10 2016 +0800
+
+    5-support-GaurdMode.patch
+    
+    Change-Id: I6e93330ab0ed9b7e5c2a7e43ff121b00a4a44964
+
+[33mcommit d45a46ad8dc5ba9d95e8c2dd64d588e7e7fd9116[m
+Author: chenxiaodong <xiaodong.chen@zhiqicheng.com>
+Date:   Fri Aug 12 19:56:45 2016 +0800
+
+    qc camera modify
+    
+    Change-Id: I9dea344850c3c6be7f60d498d19356da1470fc39
+
+[33mcommit 0eea95740822fddf975ed45b5016ab1abe479a8a[m
+Author: liangyongjie <liangyongjie@allwinnertech.com>
+Date:   Mon Jul 4 17:30:46 2016 +0800
+
+    carlet4.4.2-v40-v1.0release release

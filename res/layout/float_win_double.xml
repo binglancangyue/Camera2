@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/float_win"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center" >
+    <SurfaceView
+        android:id="@+id/back_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <SurfaceView
+        android:id="@+id/front_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <SurfaceView
+        android:id="@+id/third_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <com.android.camera.v66.RefleshTextView
+        android:id="@+id/hint_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/please_insert_back_cam"
+        android:visibility="gone"
+        android:textSize="@dimen/textSize_midium"
+        android:padding="@dimen/preview_statusbar_padding"
+        android:textColor="@android:color/white"
+        android:background="@android:color/black"/>
+    <FrameLayout
+        android:id="@+id/app_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </FrameLayout>
+
+</RelativeLayout>

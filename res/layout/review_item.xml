@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/review_item_width"
+    android:layout_height="@dimen/review_item_height"
+    android:minHeight="@dimen/review_item_height" >
+	<FrameLayout
+        android:id="@+id/item"
+        android:layout_width="@dimen/review_item_width"
+        android:layout_height="@dimen/review_item_height"
+        android:layout_margin="@dimen/review_item_margin"
+        
+        />
+	<TextView
+	    android:id="@+id/title"
+	    android:layout_width="@dimen/review_item_width"
+	    android:layout_height="@dimen/review_item_title_height"
+	    android:layout_alignParentBottom="true"
+	    android:textColor="@android:color/black"
+	    android:textSize="@dimen/text_size_mid"
+	    android:gravity="center"/>
+	<ImageView
+	    android:id="@+id/selector"
+        android:layout_width="@dimen/review_item_width"
+        android:layout_height="@dimen/review_item_height"
+        android:visibility="gone"
+        android:src="@color/yellow"
+        android:alpha="0.3"
+        android:layout_margin="@dimen/review_item_margin"/>
+</RelativeLayout>

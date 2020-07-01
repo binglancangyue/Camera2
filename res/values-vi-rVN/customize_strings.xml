@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- CDR增加的 -->
+    <string name="nightvision_setting">Đèn ghi hình đêm</string>
+    <string name="whitebalance_setting">Cân bằng trắng</string>
+    <string name="exposure_setting">Độ sáng</string>
+    <string name="color_setting">Màu sắc</string>
+    <string name="contrast_setting">Độ tương phản</string>
+    <string name="more_setting">Cài đặt</string>
+    
+    <string name="whitebalance_name">Cân bằng trắng</string>
+    <string name="color_name">Màu sắc</string> 
+    <string name="exposure_name">Độ sáng</string>
+    <string name="contrast_name">Độ tương phản</string>
+    
+    <string name="whitebalance_auto">Tự động</string>
+    <string name="whitebalance_sunny">Ngày nắng</string>
+    <string name="whitebalance_cloudy">Ngày mây</string>
+    <string name="whitebalance_incandescent">Ánh sáng vàng</string>
+    <string name="whitebalacn_fluorescent">Ánh sáng trắng</string>
+    
+    
+    
+    <string name="intelligent_detect">Nhận diện thông minh</string>
+    <string name="motion_detect">Nhận diện chuyển động</string>
+    
+    <string name="video_quality">Chất lượng video</string>
+    <string name="picture_quality">Chất lượng ảnh</string>
+    <string name="video_time">Ghi vòng lặp</string>
+    
+    <string name="nightvision">Đèn ghi hình đêm</string>
+    <string name="camera_switch">Chuyển ống kính</string>
+    <string name="video_on_power">Tự động ghi hình</string>
+    <string name="screen_sleep">Tự động tắt màn hình</string>
+    
+    <string name="date">Ngày</string>
+    <!-- <string name="time">Giờ</string> -->
+    <string name="time_watermark">Thông tin ngày giờ</string>
+    <string name="language">Ngôn ngữ</string>
+    
+    <string name="sd1_format">Format SDcard</string>
+    <string name="sd2_format">Format SDcard2</string>
+    
+    <string name="reset">Reset</string>
+    <string name="update">Cập nhật</string>
+    
+    
+    
+    <string name="video_quality_720p">720P</string>
+    <string name="video_quality_1080p">1080P</string>
+    <string name="video_quality_1600p">1600P</string>
+    <string name="video_quality_1296p">1296P</string>
+    
+    <string name="picture_quality_2m">2M</string>
+    <string name="picture_quality_3m">3M</string>
+	<string name="picture_quality_4m">4M</string>
+    <string name="picture_quality_5m">5M</string>
+	<string name="picture_quality_6m">6M</string>
+    <string name="picture_quality_8m">8M</string>
+    
+    <string name="video_time_1min">1 phút</string>
+    <string name="video_time_2min">3 phút</string>
+    <string name="video_time_3min">5 phút</string>
+    <string name="video_time_5min">5 phút</string>
+    
+    <string name="nightvision_auto">Tự động</string>
+    <string name="nightvision_on">Bật</string>
+    <string name="nightvision_off">Tắt</string>
+    
+    <string name="camera_switch_front_rear">Trước + Sau</string>
+    <string name="camera_switch_front">Trước</string>
+    <string name="camera_switch_rear">Sau</string>
+    
+    <string name="screen_sleep_20s">20 giây</string>
+    <string name="screen_sleep_30s">30 giây</string>
+    <string name="screen_sleep_1min">1 phút</string>
+    <string name="screen_sleep_off">Tắt</string>
+    
+    <string name="ok">Đồng ý</string>
+    <string name="cancel">Hủy</string>
+    
+    <string name="language_simplified_chinese">Tiếng Hoa Giản Thể</string>
+    <string name="language_traditional_chinese">Tiếng Hoa Phồn Thể</string>
+    <string name="language_english">English</string>
+    
+    <string name="sd1_format_or_not">Format thẻ nhớ sẽ xóa hết tất cả dữ liệu hiện tại. Tiếp tục?</string>
+    <string name="sd2_format_or_not">Format thẻ nhớ hay không?</string>
+    
+    <string name="reset_or_not">Reset máy?</string>
+
+    <string name="update_or_not">Cập nhật máy?</string>
+    <string name="update_already_newest">Phiên bản mới nhất</string>
+    
+    <string name="warning">Gợi ý</string>
+    <string name="whether_remove_protect_video_file">Video được ghi hình bảo vệ, Xóa?</string>
+    <string name="press_back_again_to_quit">Ấn phím trở về lần nữa để thoát</string>
+    <string name="install_adjust">Canh chỉnh làn đường</string>
+	
+    <string name="impact_protected_file">Video khóa</string>
+    
+    <string name="record_browser">Xem lại</string>
+    <string name="goto_record_browser">Dừng ghi hình và đến mục xem lại?</string>
+    <string name="goto_settings">Dừng ghi hình và đến mục cài đặt?</string>
+    
+    <string name="distance_detect_level">Độ nhạy cảnh báo va chạm</string>
+    <string name="distance_leve_1">Rất nhạy</string>
+    <string name="distance_leve_1_40">Cao</string>
+    <string name="distance_leve_2">Trung bình</string>
+    <string name="distance_leve_3">Thấp</string>
+    
+    <string name="gsensor_lock_level">Độ nhạy G-sensor</string>
+    <string name="gsensor_level_1">Cao</string>
+    <string name="gsensor_level_2">Trung bình</string>
+    <string name="gsensor_level_3">Thấp</string>
+    <string name="gsensor_level_4">Tắt</string>
+    <string name="gsensor_alarm_level">Độ nhạy cảnh báo đỗ xe</string>
+    <string name="alarm_level_1">Cao</string>
+    <string name="alarm_level_2">Trung bình</string>
+    <string name="alarm_level_3">Thấp</string>
+    
+    <string name="car_line_level">Độ nhạy cảnh báo làn đường</string>
+    <string name="car_line_level_1">Cao</string>
+    <string name="car_line_level_2">Trung bình</string>
+    <string name="car_line_level_3">Thấp</string>
+    
+  	<string name="camera_flip">Chuyển camera</string>
+  	<string name="flip_enable">Bật</string>
+  	<string name="flip_disable">Tắt</string>
+  	
+  	<string name="app_exit_dialog_title">Thoát</string>
+  	<string name="app_exit_dialog_msg">Dừng ghi hình và thoát.</string>
+  	<string name="app_exit_background_run">Ghi hình ẩn</string>
+  	<string name="format_sdcard_message">Chưa format thẻ nhớ.</string>
+  	<string name="dialog_empty">Không có dữ liệu</string>
+  	<string name="space_no_enough">Không đủ bộ nhớ, vui lòng xóa video khóa hoặc format thẻ!</string>
+  	<string name="sdcard_not_found">Chưa có thẻ nhớ</string>
+  	
+  	<string name="review_select_all">Chọn tất cả</string>
+  	<string name="review_unselect_all">Bỏ chọn</string>
+  	<string name="review_delect">Xóa</string>
+  	<string name="review_delect_file">Xóa file hiện tại?</string>
+  	<string name="button_return">Trang trước</string>
+  	<string name="device_busy">Đang xử lý, vui lòng chờ!</string>
+  	<string name="please_insert_back_cam">Vui lòng kết nối camera sau!</string>
+  	
+  	<string-array name="adas_car_type">
+  	    <item>Ô tô nhỏ</item>
+  	    <item>SUV</item>
+  	    <item>Xe tải</item>
+    </string-array>
+    <string-array name="adas_car_type_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    <string name="car_type">Loại xe</string>
+    <string name="car_type_car">Ô tô nhỏ</string>
+    <string name="car_type_suv">SUV</string>
+    <string name="car_type_truck">Xe tải</string>
+    <string name="select_car_type">Vui lòng chọn loại xe</string>
+    <string name="operating_camera">Camera đang hoạt động!</string>
+    
+    <string name="shutting_down">Đang tắt máy</string>
+     <string name="kaishiluxiang">Bắt đầu ghi hình</string>
+	 <string name="middlevideo">Video ở giữa</string>
+	 <string name="disconnectrecording">Dừng ghi!\nẤn và giữ để bắt đầu ghi hình</string> 
+</resources>

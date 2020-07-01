@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical" >
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/review_option_height"
+        android:background="@android:color/black">
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="@dimen/review_button_width"
+            android:layout_height="@dimen/review_button_height"
+            android:layout_gravity="left"
+            android:gravity="center"
+            android:text="@string/button_return"
+            android:textSize="@dimen/text_size"
+            android:textColor="@android:color/white"
+            />
+        <Button
+            android:id="@+id/seletor"
+            android:layout_width="@dimen/review_button_width"
+            android:layout_height="@dimen/review_button_height"
+            android:layout_marginLeft="@dimen/review_button_marginleft"
+            android:layout_gravity="left"
+            android:gravity="center"
+            android:text="@string/review_select_all"
+            android:textSize="@dimen/text_size"
+            android:textColor="@android:color/white"
+            />
+        <Button
+            android:id="@+id/bt_delete"
+            android:layout_width="@dimen/review_button_width"
+            android:layout_height="@dimen/review_button_height"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:text="@string/review_delect"
+            android:textSize="@dimen/text_size"
+            android:textColor="@android:color/white"
+            />
+    </FrameLayout>
+    <com.android.camera.v66.AdjustedListView
+        android:id="@+id/review_list"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:descendantFocusability="blocksDescendants"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:scrollbars="none"/>
+
+    
+</LinearLayout>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- CDR增加的 -->
+    <string name="nightvision_setting">Lámapra de Visión Nocturna</string>
+    <string name="whitebalance_setting">Balanza Blanca</string>
+    <string name="exposure_setting">Exposición</string>
+    <string name="color_setting">Color</string>
+    <string name="contrast_setting">Contraste</string>
+    <string name="more_setting">Ajuste</string>
+    
+    <string name="whitebalance_name">Balanza Blanca</string>
+    <string name="color_name">Color</string> 
+    <string name="exposure_name">Exposición</string>
+    <string name="contrast_name">Contraste</string>
+    
+    <string name="whitebalance_auto">Automático</string>
+    <string name="whitebalance_sunny">Despejado</string>
+    <string name="whitebalance_cloudy">Nublado</string>
+    <string name="whitebalance_incandescent">Incandescencia</string>
+    <string name="whitebalacn_fluorescent">Fluorescencia</string>
+    
+    
+    
+    <string name="intelligent_detect">Detección Inteligencia</string>
+    <string name="motion_detect">Detección Móvil</string>
+    
+    <string name="video_quality">Calidad de Videos</string>
+    <string name="picture_quality">Calidad de Imágenes</string>
+    <string name="video_time">Tiempo de Video</string>
+    
+    <string name="nightvision">Lámapra de Visión Nocturna</string>
+    <string name="camera_switch">Interruptor de Cámara</string>
+    <string name="video_on_power">Energizar y Tomar Videos</string>
+    <string name="screen_sleep">Hibernación de Pantalla</string>
+    
+    <string name="date">Fecha</string>
+    <!-- <string name="time">Tiempo</string> -->
+    <string name="time_watermark">Filigrana de Tiempo</string>
+    <string name="language">Idioma</string>
+    
+    <string name="sd1_format">Formatear la tarjeta SD</string>
+    <string name="sd2_format">Formatear la tarjeta SD2</string>
+    
+    <string name="reset">Reajustar</string>
+    <string name="update">Actualizar</string>
+    
+    
+    
+    <string name="video_quality_720p">720P</string>
+    <string name="video_quality_1080p">1080P</string>
+    <string name="video_quality_1600p">1600P</string>
+    <string name="video_quality_1296p">1296P</string>
+    
+    <string name="picture_quality_2m">2M</string>
+    <string name="picture_quality_3m">3M</string>
+	<string name="picture_quality_4m">4M</string>
+    <string name="picture_quality_5m">5M</string>
+	<string name="picture_quality_6m">6M</string>
+    <string name="picture_quality_8m">8M</string>
+    
+    <string name="video_time_1min">1min</string>
+    <string name="video_time_2min">3mins</string>
+    <string name="video_time_3min">5mins</string>
+    <string name="video_time_5min">5min</string>
+    
+    <string name="nightvision_auto">Automático</string>
+    <string name="nightvision_on">Encender</string>
+    <string name="nightvision_off">Apagar</string>
+    
+    <string name="camera_switch_front_rear">Frente+Trasera</string>
+    <string name="camera_switch_front">Frente</string>
+    <string name="camera_switch_rear">Trasera</string>
+    
+    <string name="screen_sleep_20s">20s</string>
+    <string name="screen_sleep_30s">30s</string>
+    <string name="screen_sleep_1min">1min</string>
+    <string name="screen_sleep_off">Apagar</string>
+    
+    <string name="ok">Confirmar</string>
+    <string name="cancel">Cancelar</string>
+    
+    <string name="language_simplified_chinese">Chino Simplificado</string>
+    <string name="language_traditional_chinese">Chino Tradicional</string>
+    <string name="language_english">english</string>
+    
+    <string name="sd1_format_or_not">Si se formatea la tarjeta SD, se borrarán todos los datos, ¿si se formatea la tarjeta SD?</string>
+    <string name="sd2_format_or_not">¿Si se formatea la tarjeta SD1?</string>
+    
+    <string name="reset_or_not">¿Si se reajusta?</string>
+
+    <string name="update_or_not">¿Si se actualiza？</string>
+    <string name="update_already_newest">Ya es la versión última</string>
+    
+    <string name="warning">Advertencia</string>
+    <string name="whether_remove_protect_video_file">Es un archivo de protección contra la detección de impacto, ¿si se lo borra?</string>
+    <string name="press_back_again_to_quit">Presione otra vez para salir</string>
+    <string name="install_adjust">Calibración de la Línea de Carril</string>
+	
+    <string name="impact_protected_file">Archivo de Protección contra Impacto</string>
+    
+    <string name="record_browser">Navegador de Videos</string>
+    <string name="goto_record_browser">¿Parar de tomar videos y ir a ver los archivos de videos?</string>
+    <string name="goto_settings">¿Parar de tomar videos y ir al Ajuste?</string>
+    
+    <string name="distance_detect_level">Sensibilidad de Impacto del Carril Delantero</string>
+    <string name="distance_leve_1">Modo de Demostración</string>
+    <string name="distance_leve_1_40">Alta</string>
+    <string name="distance_leve_2">Mediana</string>
+    <string name="distance_leve_3">Baja</string>
+    <string name="distance_leve_4">Apagar</string>
+    
+    <string name="gsensor_lock_level">Sensibilidad de Bloqueo de Impacto</string>
+    <string name="gsensor_level_1">Alta</string>
+    <string name="gsensor_level_2">Mediana</string>
+    <string name="gsensor_level_3">Baja</string>
+    <string name="gsensor_level_4">Apagar</string>
+    <string name="gsensor_alarm_level">Sensibilidad de Alarma de Impacto al Aparcar</string>
+    <string name="alarm_level_1">Alta</string>
+    <string name="alarm_level_2">Mediana</string>
+    <string name="alarm_level_3">Baja</string>
+    
+    <string name="car_line_level">Sensibilidad del Carril</string>
+    <string name="car_line_level_1">Alta</string>
+    <string name="car_line_level_2">Mediana</string>
+    <string name="car_line_level_3">Baja</string>
+    
+  	<string name="camera_flip">Espejo Retrovisor</string>
+  	<string name="flip_enable">Disponible</string>
+  	<string name="flip_disable">Indisponible</string>
+  	
+  	<string name="app_exit_dialog_title">Salir</string>
+  	<string name="app_exit_dialog_msg">Parar de tomar videos y salir de la aplicación.</string>
+  	<string name="app_exit_background_run">Tomar videos en el fondo</string>
+  	<string name="format_sdcard_message">La tarjeta SD todavía no está formateada.</string>
+  	<string name="dialog_empty">No hay datos</string>
+  	<string name="space_no_enough">¡El espacio es insuficiente, elimine los videos con bloqueo y los videos de la tarjeta T por favor!</string>
+  	<string name="sdcard_not_found">¡Inserte la tarjeta SD por favor！</string>
+  	
+  	<string name="review_select_all">Seleccionar Todos</string>
+  	<string name="review_unselect_all">Cancelar Todos</string>
+  	<string name="review_delect">Borrar</string>
+  	<string name="review_delect_file">¿Se borran los archivos seleccionados？</string>
+  	<string name="button_return">Volver</string>
+  	<string name="device_busy">¡El dispositivo está ocupado, luego inténtelo de nuevo!</string>
+  	<string name="please_insert_back_cam">¡Inserte la cámara trasera por favor!</string>
+  	
+  	<string-array name="adas_car_type">
+  	    <item>Coche</item>
+  	    <item>SUV</item>
+  	    <item>Camión</item>
+    </string-array>
+    <string-array name="adas_car_type_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    <string name="car_type">Tipo</string>
+    <string name="car_type_car">Coche</string>
+    <string name="car_type_suv">SUV</string>
+    <string name="car_type_truck">Camión</string>
+    <string name="select_car_type">Elija el tipo del automóvil</string>
+    <string name="operating_camera">¡Está operando la cámara!</string>
+    
+    <string name="shutting_down">Está apagando</string>
+    <string name="kaishiluxiang">Está tomando el video</string>
+	<string name="middlevideo">Videos Medio</string>
+	<string name="disconnectrecording">¡El video ya está desconectado!\n Presionar siempre para empezar el video</string> 
+	<string name="front_camera_text">Antes</string> 
+	<string name="back_camera_text">Después</string> 
+	 
+</resources>

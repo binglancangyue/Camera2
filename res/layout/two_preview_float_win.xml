@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/two_preview_framely_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF000000"
+    android:visibility="gone" >
+
+    <com.android.camera.v66.ObserveScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="1600dp"
+        android:layout_height="400dp" >
+
+        <LinearLayout
+            android:id="@+id/two_preview_framelayout"
+            android:layout_width="1600dp"
+            android:layout_height="400dp"
+            android:animateLayoutChanges="true"
+            android:orientation="horizontal" >
+
+            <SurfaceView
+                android:id="@+id/left_preview"
+                android:layout_width="1000dp"
+                android:layout_height="400dp" />
+
+            <SurfaceView
+                android:id="@+id/right_preview"
+                android:layout_width="600dp"
+                android:layout_height="400dp" />
+        </LinearLayout>
+    </com.android.camera.v66.ObserveScrollView>
+
+    <TextView
+        android:id="@+id/tv_flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/red"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bt_two_pre_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:background="@drawable/reverse_back_selector" />
+
+</FrameLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- CDR增加的 -->
+    <string name="nightvision_setting">nachtzicht </string>
+    <string name="whitebalance_setting">witbalans</string>
+    <string name="exposure_setting">helderheid</string>
+    <string name="color_setting">kleur</string>
+    <string name="contrast_setting">Contrast</string>
+    <string name="more_setting"> instellingen</string>
+    
+    <string name="whitebalance_name">witbalans</string>
+    <string name="color_name">kleur </string> 
+    <string name="exposure_name">helderheid</string>
+    <string name="contrast_name">Contrast</string>
+    
+    <string name="whitebalance_auto">automatisch</string>
+    <string name="whitebalance_sunny">Zonnige </string>
+    <string name="whitebalance_cloudy">bewolkt</string>
+    <string name="whitebalance_incandescent"> gloeilamp</string>
+    <string name="whitebalacn_fluorescent"> fluorescentie</string>
+    
+    
+    
+    <string name="intelligent_detect">slimme detectie </string>
+    <string name="motion_detect">bewegingsdetectie</string>
+    
+    <string name="video_quality">videokwaliteit </string>
+    <string name="picture_quality">camera kwaliteit</string>
+    <string name="video_time">videotijd </string>
+    
+    <string name="nightvision">nachtzicht</string>
+    <string name="camera_switch">camera switch </string>
+    <string name="video_on_power">Aanzetten video</string>
+    <string name="screen_sleep">scherm hibernatie</string>
+    
+    <string name="date">datum </string>
+    <!-- <string name="time">时间</string> -->
+    <string name="time_watermark">tijd watermerk</string>
+    <string name="language">taal</string>
+    
+    <string name="sd1_format">formatteer de SD-kaart </string>
+    <string name="sd2_format">formatteer de SD-kaart 2</string>
+    
+    <string name="reset">Fabrieksinstellingen herstel</string>
+    <string name="update">update</string>
+    
+    
+    
+    <string name="video_quality_720p">720P</string>
+    <string name="video_quality_1080p">1080P</string>
+    <string name="video_quality_1600p">1600P</string>
+    <string name="video_quality_1296p">1296P</string>
+    
+    <string name="picture_quality_2m">2M</string>
+    <string name="picture_quality_3m">3M</string>
+	<string name="picture_quality_4m">4M</string>
+    <string name="picture_quality_5m">5M</string>
+	<string name="picture_quality_6m">6M</string>
+    <string name="picture_quality_8m">8M</string>
+    
+    <string name="video_time_1min">1min</string>
+    <string name="video_time_2min">3mins</string>
+    <string name="video_time_3min">5mins</string>
+    <string name="video_time_5min">5min</string>
+    
+    <string name="nightvision_auto">automatisch </string>
+    <string name="nightvision_on">aan</string>
+    <string name="nightvision_off">uit</string>
+    
+    <string name="camera_switch_front_rear">voor + achter</string>
+    <string name="camera_switch_front">voor</string>
+    <string name="camera_switch_rear">achter</string>
+    
+    <string name="screen_sleep_20s">20s</string>
+    <string name="screen_sleep_30s">30s</string>
+    <string name="screen_sleep_1min">1min</string>
+    <string name="screen_sleep_off">uit</string>
+    
+    <string name="ok">ok</string>
+    <string name="cancel">Annuleren</string>
+    
+    <string name="language_simplified_chinese">Chinees vereenvoudigd </string>
+    <string name="language_traditional_chinese">Chinese Traditioneel </string>
+    <string name="language_english">Engls</string>
+    
+    <string name="sd1_format_or_not"> Aanzettenlle gegevens verwijderd en als uit de SD-kaart formatteren,wilt u het formatteren?</string>
+    <string name="sd2_format_or_not">Wilt u SD1 formatteren?</string>
+    
+    <string name="reset_or_not"> Wilt u de fabrieksinstellingen herstellen?</string>
+
+    <string name="update_or_not">Wilt u update？</string>
+    <string name="update_already_newest">Het is de nieuwste versie </string>
+    
+    <string name="warning">waarschuwintg</string>
+    <string name="whether_remove_protect_video_file">Dit is een beveiligingsbestand voor botsingsdetectie, wilt u het verwijderd?</string>
+    <string name="press_back_again_to_quit">druk nogmaals om te uitgang</string>
+    <string name="install_adjust">lane line calibration</string>
+	
+    <string name="impact_protected_file">botsingsbeschermingsbestand</string>
+    
+    <string name="record_browser">video browsen </string>
+    <string name="goto_record_browser"> Stop met opname en ga naar het videobestand?</string>
+    <string name="goto_settings">Stop opnemen en ga naar Instellingen? </string>
+    
+    <string name="distance_detect_level">gevoeligheid voor frontbotsing botsing </string>
+    <string name="distance_leve_1">demo modus</string>
+    <string name="distance_leve_1_40">Hoog</string>
+    <string name="distance_leve_2">Mid</string>
+    <string name="distance_leve_3">laag</string>
+    <string name="distance_leve_4">uit</string>
+    
+    <string name="gsensor_lock_level">Gevoeligheid van de beveiligingslek</string>
+    <string name="gsensor_level_1">Hoog</string>
+    <string name="gsensor_level_2">Mid</string>
+    <string name="gsensor_level_3">laag</string>
+    <string name="gsensor_level_4">uit</string>
+    <string name="gsensor_alarm_level">gevoeligheid voor botsingsalarm alarm</string>
+    <string name="alarm_level_1">Hoog</string>
+    <string name="alarm_level_2">Mid</string>
+    <string name="alarm_level_3">laag</string>
+    
+    <string name="car_line_level">Lane gevoeligheid</string>
+    <string name="car_line_level_1">Hoog</string>
+    <string name="car_line_level_2">Mid</string>
+    <string name="car_line_level_3">laag</string>
+    
+  	<string name="camera_flip">Achteruitkijkspiegel </string>
+  	<string name="flip_enable">inschakelen</string>
+  	<string name="flip_disable">uitschakelen</string>
+  	
+  	<string name="app_exit_dialog_title">Uitgang</string>
+  	<string name="app_exit_dialog_msg">Stop opnemen en sluit de app.</string>
+  	<string name="app_exit_background_run">achtergrondopname </string>
+  	<string name="format_sdcard_message">De SD-kaart is niet geformatteerd.</string>
+  	<string name="dialog_empty">geen gegevens</string>
+  	<string name="space_no_enough">Onvoldoende ruimte, verwijder de gesloten video en T-kaartvideo! </string>
+  	<string name="sdcard_not_found">SD-kaart niet gevonden！</string>
+  	
+  	<string name="review_select_all">selecteer alles</string>
+  	<string name="review_unselect_all">selecteer alles uit</string>
+  	<string name="review_delect">Verwijder</string>
+  	<string name="review_delect_file">verwijder het geselecteerde middenbestand?</string>
+  	<string name="button_return">Terug</string>
+  	<string name="device_busy">Apparatuur bezig！</string>
+  	<string name="please_insert_back_cam">Plaats de achtercamera a.u.b</string>
+  	
+  	<string-array name="adas_car_type">
+  	    <item>Sedan</item>
+  	    <item>SUV</item>
+  	    <item>vrachtwagen</item>
+    </string-array>
+    <string-array name="adas_car_type_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    <string name="car_type">autotype</string>
+    <string name="car_type_car">sedan</string>
+    <string name="car_type_suv">SUV</string>
+    <string name="car_type_truck">vrachtwagen</string>
+    <string name="select_car_type">Selecteer het autotype</string>
+    <string name="operating_camera">de camera bedienen! </string>
+    
+    <string name="shutting_down">afsluiten</string>
+    <string name="kaishiluxiang">begin met opname</string>
+	<string name="middlevideo">midway video</string>
+	<string name="disconnectrecording">De video is uit!\n Lang indrukken om de opname te starten</string>
+	
+	<string name="front_camera_text">Voor</string> 
+	<string name="back_camera_text">acht</string>
+	 
+</resources>

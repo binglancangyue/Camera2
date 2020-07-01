@@ -1,0 +1,41 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory>
+        <SwitchPreference  
+            android:key="key_rear_vision_flip"  
+            android:summary="Rear Rision Flip"  
+            android:title="Set rear vision flip" />  
+        <SwitchPreference  
+            android:key="key_carlane_adjust"  
+            android:summary="Carlane Adjust"  
+            android:title="open or close Carlane Adjust" />  
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <ListPreference
+            android:key="key_crash_sensity"  
+            android:summary="detect crash sensity"  
+            android:title="detect crash sensity"
+            android:dialogTitle="Please select one item"
+            android:entries="@array/crash_sensity"
+            android:entryValues="@array/crash_sensity_value" /> 
+        <ListPreference  
+            android:key="key_lock_sensity"  
+            android:summary="detect lock sensity"  
+            android:title="detect lock sensity"
+            android:dialogTitle="Please select one item"
+            android:entries="@array/lock_sensity"
+            android:entryValues="@array/lock_sensity_value"/>
+        <ListPreference  
+            android:key="key_parking_crash_sensity"  
+            android:summary="parking crash sensity"  
+            android:title="parking_crash_sensity"
+            android:dialogTitle="Please select one item"
+            android:entries="@array/parking_crash_sensity"
+            android:entryValues="@array/parking_crash_sensity_value"/>  
+    </PreferenceCategory>
+    <PreferenceCategory>
+        <Preference  
+            android:key="key_format_sd_card"  
+            android:summary="format sd card"  
+            android:title="format sd card" />  
+    </PreferenceCategory>
+</PreferenceScreen>

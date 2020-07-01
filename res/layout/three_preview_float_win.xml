@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/three_preview_framely_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF000000" >
+
+    <com.android.camera.v66.ObserveScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="1600dp"
+        android:layout_height="400dp" >
+
+        <LinearLayout
+            android:id="@+id/three_preview_framelayout"
+            android:layout_width="1600dp"
+            android:layout_height="400dp"
+            android:animateLayoutChanges="true"
+            android:orientation="horizontal" >
+
+            <TextureView
+                android:id="@+id/left_preview"
+                android:layout_width="430dp"
+                android:layout_height="400dp" />
+
+            <View
+                android:id="@+id/left_line"
+                android:layout_width="@dimen/preview_splite_line_width"
+                android:layout_height="match_parent"
+                android:background="@color/preview_splite_line_color" />
+
+            <TextureView
+                android:id="@+id/middle_preview"
+                android:layout_width="740dp"
+                android:layout_height="400dp" />
+            <View
+                android:id="@+id/right_line"
+                android:layout_width="@dimen/preview_splite_line_width"
+                android:layout_height="match_parent"
+                android:background="@color/preview_splite_line_color" />
+
+            <TextureView
+                android:id="@+id/right_preview"
+                android:layout_width="430dp"
+                android:layout_height="400dp" />
+        </LinearLayout>
+    </com.android.camera.v66.ObserveScrollView>
+
+    <TextView
+        android:id="@+id/tv_flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/red"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+    <com.android.camera.v66.RecordImageView
+        android:id="@+id/iv_three_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="@dimen/record_icon_margin_left"
+        android:layout_marginTop="@dimen/record_icon_margin_top"
+        android:visibility="gone"
+        android:src="@drawable/icon_record_red_point"/>
+
+    <Button
+        android:id="@+id/bt_three_pre_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/reverse_back_selector" />
+
+</FrameLayout>

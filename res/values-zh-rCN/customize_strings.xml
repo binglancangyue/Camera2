@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- CDR增加的 -->
+    <string name="nightvision_setting">夜视灯</string>
+    <string name="whitebalance_setting">白平衡</string>
+    <string name="exposure_setting">亮度</string>
+    <string name="color_setting">颜色</string>
+    <string name="contrast_setting">对比度</string>
+    <string name="more_setting">设置</string>
+    
+    <string name="whitebalance_name">白平衡</string>
+    <string name="color_name">颜色</string> 
+    <string name="exposure_name">亮度</string>
+    <string name="contrast_name">对比度</string>
+    
+    <string name="whitebalance_auto">自动</string>
+    <string name="whitebalance_sunny">晴天</string>
+    <string name="whitebalance_cloudy">阴天</string>
+    <string name="whitebalance_incandescent">白炽光</string>
+    <string name="whitebalacn_fluorescent">荧光</string>
+    
+    
+    
+    <string name="intelligent_detect">智能检测</string>
+    <string name="motion_detect">移动侦测</string>
+    
+    <string name="video_quality">录像质量</string>
+    <string name="picture_quality">照相质量</string>
+    <string name="video_time">录像时间</string>
+    
+    <string name="nightvision">夜视灯</string>
+    <string name="camera_switch">摄像头开关</string>
+    <string name="video_on_power">上电录像</string>
+    <string name="screen_sleep">屏幕休眠</string>
+    
+    <string name="date">日期</string>
+    <!-- <string name="time">时间</string> -->
+    <string name="time_watermark">时间水印</string>
+    <string name="language">语言</string>
+    
+    <string name="sd1_format">格式化SD卡</string>
+    <string name="sd2_format">格式化SD2</string>
+    <string name="text_flip">设置镜像</string>
+    <string name="right_camera_flip">右摄像头镜像</string>
+    <string name="back_camera_flip">后摄像头镜像</string>
+    
+    <string name="reset">恢复出厂设置</string>
+    <string name="update">更新</string>
+    
+    
+    
+    <string name="video_quality_720p">720P</string>
+    <string name="video_quality_1080p">1080P</string>
+    <string name="video_quality_1600p">1600P</string>
+    <string name="video_quality_1296p">1296P</string>
+    
+    <string name="picture_quality_2m">2M</string>
+    <string name="picture_quality_3m">3M</string>
+	<string name="picture_quality_4m">4M</string>
+    <string name="picture_quality_5m">5M</string>
+	<string name="picture_quality_6m">6M</string>
+    <string name="picture_quality_8m">8M</string>
+    
+    <string name="video_time_1min">1min</string>
+    <string name="video_time_2min">3mins</string>
+    <string name="video_time_3min">5mins</string>
+    <string name="video_time_5min">5min</string>
+    
+    <string name="nightvision_auto">自动</string>
+    <string name="nightvision_on">开启</string>
+    <string name="nightvision_off">关闭</string>
+    
+    <string name="camera_switch_front_rear">前+后</string>
+    <string name="camera_switch_front">前</string>
+    <string name="camera_switch_rear">后</string>
+    
+    <string name="screen_sleep_20s">20s</string>
+    <string name="screen_sleep_30s">30s</string>
+    <string name="screen_sleep_1min">1min</string>
+    <string name="screen_sleep_off">关闭</string>
+    
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    
+    <string name="language_simplified_chinese">中文简体</string>
+    <string name="language_traditional_chinese">中文繁體</string>
+    <string name="language_english">english</string>
+    
+    <string name="sd1_format_or_not">  格式化SD卡将会删除所有数据，是否格式化SD卡?</string>
+    <string name="sd2_format_or_not">是否格式化SD1?</string>
+    
+    <string name="reset_or_not">是否恢复出厂设置?</string>
+
+    <string name="update_or_not">是否更新？</string>
+    <string name="update_already_newest">已是最新版本</string>
+    
+    <string name="warning">提示</string>
+    <string name="whether_remove_protect_video_file">这是一个碰撞检测保护文件, 是否删除?</string>
+    <string name="press_back_again_to_quit">再按一次退出</string>
+    <string name="install_adjust">车道线校准</string>
+	
+    <string name="impact_protected_file">碰撞保护文件</string>
+    
+    <string name="record_browser">录像浏览</string>
+    <string name="goto_record_browser">停止录像，并前往查看录像文件?</string>
+    <string name="goto_settings">停止录像，并前往设置?</string>
+    
+    <string name="distance_detect_level">前车碰撞灵敏度</string>
+    <string name="distance_leve_1">演示模式</string>
+    <string name="distance_leve_1_40">高</string>
+    <string name="distance_leve_2">中</string>
+    <string name="distance_leve_3">低</string>
+    <string name="distance_leve_4">关</string>
+    
+    <string name="gsensor_lock_level">碰撞锁定灵敏度</string>
+    <string name="gsensor_level_1">高</string>
+    <string name="gsensor_level_2">中</string>
+    <string name="gsensor_level_3">低</string>
+    <string name="gsensor_level_4">关</string>
+    <string name="gsensor_alarm_level">停车碰撞报警灵敏度</string>
+    <string name="alarm_level_1">高</string>
+    <string name="alarm_level_2">中</string>
+    <string name="alarm_level_3">低</string>
+    
+    <string name="car_line_level">车道灵敏度</string>
+    <string name="car_line_level_1">高</string>
+    <string name="car_line_level_2">中</string>
+    <string name="car_line_level_3">低</string>
+    
+  	<string name="camera_flip">后视镜像</string>
+  	<string name="flip_enable">开启</string>
+  	<string name="flip_disable">关闭</string>
+  	
+  	<string name="app_exit_dialog_title">退出</string>
+  	<string name="app_exit_dialog_msg">停止录像并退出应用.</string>
+  	<string name="app_exit_background_run">后台录像</string>
+  	<string name="format_sdcard_message">SD卡还未被格式化.</string>
+  	<string name="dialog_empty">没有数据</string>
+  	<string name="space_no_enough">空间不足，请清除加锁视频和T卡视频!</string>
+  	<string name="sdcard_not_found">请插入SD卡！</string>
+  	
+  	<string name="review_select_all">全选</string>
+  	<string name="review_unselect_all">全清</string>
+  	<string name="review_delect">删除</string>
+  	<string name="review_delect_file">删除选中文件？</string>
+  	<string name="button_return">返回</string>
+  	<string name="device_busy">设备忙，稍候再试！</string>
+  	<string name="please_insert_back_cam">请插入后摄像头！</string>
+  	
+  	<string-array name="adas_car_type">
+  	    <item>轿车</item>
+  	    <item>SUV</item>
+  	    <item>卡车</item>
+    </string-array>
+    <string-array name="adas_car_type_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    <string name="car_type">车类型</string>
+    <string name="car_type_car">轿车</string>
+    <string name="car_type_suv">SUV</string>
+    <string name="car_type_truck">卡车</string>
+    <string name="select_car_type">请选择汽车类型</string>
+    <string name="operating_camera">正在操作摄像头!</string>
+    
+    <string name="shutting_down">正在关机</string>
+     <string name="kaishiluxiang">开始录像</string>
+	<string name="middlevideo">中路录像</string>
+	 <string name="disconnectrecording">录像已关闭!\n长按开始录像</string>
+    <!--正常-->
+	<string name="front_camera_text">前</string>
+	<string name="back_camera_text">后</string>
+
+    <!--前后颠倒-->
+    <!--<string name="front_camera_text">后</string>
+    <string name="back_camera_text">前</string>-->
+
+    <!--只有后摄或不显示时-->
+<!--    <string name="front_camera_text">""</string>-->
+<!--    <string name="back_camera_text">""</string>-->
+
+	<string name="left_camera_text">左</string>
+	<string name="right_camera_text">右</string>
+	<string name="please_insert_three_cam">请插入右摄像头!</string>  
+	<string name="camera_right_flip">右录镜像</string>
+	<string name="ri_cam_noopen_tip">请等待右录初始化成功，稍候再试</string> 
+	
+	<string name="tv_distance">21.4公里</string>
+    <string name="tv_road">S3广深沿江高速</string>
+    <string name="enter_road">进入</string>
+    <string name="distance_meter_unit">米</string>
+    <string name="distance_km_unit">公里</string>
+    <string name="distance_hint">未知</string>
+    <string name="since">从 </string>
+    <string name="default_time">00:00</string>
+    <string name="monday">星期一</string>
+    <string name="tuesday">星期二</string>
+    <string name="wednesday">星期三</string>
+    <string name="thursday">星期四</string>
+    <string name="friday">星期五</string>
+    <string name="saturday">星期六</string>
+    <string name="sunday">星期日</string>
+    <string name="tv_am">上午</string>
+    <string name="tv_pm">下午</string>
+    <string name="am">上午</string>
+    <string name="pm">下午</string>
+</resources>

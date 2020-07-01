@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/reverse_win_988"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#000000"
+    android:gravity="center" >
+
+    <TextureView
+        android:id="@+id/reverse_preview"
+        android:layout_width="1136dp"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <com.android.camera.v66.ReverseLineImageView
+        android:id="@+id/reverse_lines"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|top"
+        android:gravity="left|top"
+        android:src="@drawable/reverse_lines"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/hint_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/black"
+        android:padding="@dimen/preview_statusbar_padding"
+        android:text="@string/please_insert_back_cam"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textSize_mlarge"
+        android:visibility="gone" />
+
+</RelativeLayout>

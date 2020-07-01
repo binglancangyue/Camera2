@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/setting_item_height"
+    android:minHeight="@dimen/setting_item_height"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:layout_gravity="center">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="@dimen/settings_tv_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center"
+        android:gravity="left|center"
+        android:layout_marginLeft="@dimen/setting_item_margin_left"
+        android:textSize="@dimen/text_size_settings"
+        android:textColor="@android:color/black"/>
+    <ImageView
+        android:id="@+id/bt_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center"
+        android:visibility="gone"
+        android:gravity="center"
+        android:src="@drawable/bg_settings_item_switch"/>
+    <TextView
+        android:id="@+id/value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center"
+        android:gravity="center"
+        android:layout_marginRight="@dimen/setting_item_value_margin_right"
+        android:textSize="@dimen/text_size_settings"
+        android:textColor="@color/yellow"/>
+        
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center"
+        android:gravity="center"
+        android:layout_marginRight="@dimen/setting_item_button_margin_right"
+        android:src="@drawable/ic_settings_arrow"/>
+    
+    <ImageView
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_item_divider_height"
+        android:layout_gravity="left|bottom"
+        android:gravity="bottom"
+        android:layout_marginLeft="@dimen/setting_item_margin_left"
+        android:src="@drawable/settings_item_divider"/>
+</FrameLayout>

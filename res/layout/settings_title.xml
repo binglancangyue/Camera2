@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/black"
+    tools:context="${relativePackage}.${activityClass}" >
+    
+    <Button
+        android:id="@+id/return_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:textSize="@dimen/textSize_large"
+        android:textColor="@android:color/white"
+        android:text="@string/fake_return_icon"
+        android:visibility="gone"
+        />
+   
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:textSize="@dimen/textSize_large"
+        android:textColor="@android:color/white"
+        android:text="@string/settings_title"
+        />
+</FrameLayout>

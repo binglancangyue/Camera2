@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!--
+          <com.android.camera.v66.ObserveScrollView
+         android:id="@+id/scrollview"
+         android:layout_width="1024dp"
+         android:layout_height="600dp" >
+    -->
+
+    <LinearLayout
+        android:id="@+id/preview_framelayout"
+        android:layout_width="1024dp"
+        android:layout_height="600dp"
+        android:orientation="horizontal" >
+
+        <!--
+        <TextureView
+            android:id="@+id/left_preview"
+            android:layout_width="430dp"
+            android:layout_height="400dp" />
+
+        <View
+            android:id="@+id/left_line"
+            android:layout_width="@dimen/preview_splite_line_width"
+            android:layout_height="match_parent"
+            android:background="@color/preview_splite_line_color" />
+
+        -->
+
+        <SurfaceView
+            android:id="@+id/front_preview"
+            android:layout_width="1024dp"
+            android:layout_height="600dp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <SurfaceView
+                android:id="@+id/back_preview"
+                android:layout_width="1024dp"
+                android:layout_height="600dp" />
+
+            <TextView
+                android:id="@+id/tv_insert_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/please_insert_back_cam"
+                android:textSize="25sp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/layout_naviinfo"
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_navi_info"
+            android:visibility="gone" >
+
+            <include
+                layout="@layout/layout_navi_info"
+                android:visibility="gone" />
+
+            <com.android.camera.v66.LEDView
+                android:id="@+id/ledview"
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal" />
+        </FrameLayout>
+
+        <View
+            android:id="@+id/right_line"
+            android:layout_width="@dimen/preview_splite_line_width"
+            android:layout_height="match_parent"
+            android:background="@color/preview_splite_line_color" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <SurfaceView
+                android:id="@+id/right_preview"
+                android:layout_width="1024dp"
+                android:layout_height="600dp" />
+
+            <TextView
+                android:id="@+id/tv_insert_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/please_insert_three_cam"
+                android:textSize="25sp"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+    <!-- </com.android.camera.v66.ObserveScrollView> -->
+
+    <com.android.camera.v66.ReverseLineImageView
+        android:id="@+id/reverse_lines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:gravity="center_horizontal|bottom"
+        android:src="@drawable/reverse_lines"
+        android:visibility="gone" />
+
+    <com.android.camera.v66.RecordImageView
+        android:id="@+id/iv_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="@dimen/record_icon_margin_left"
+        android:layout_marginTop="@dimen/record_icon_margin_top"
+        android:src="@drawable/icon_record_red_point"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/red"
+        android:textSize="25sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/bt_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom"
+        android:background="@drawable/reverse_back_selector" />
+
+</FrameLayout>

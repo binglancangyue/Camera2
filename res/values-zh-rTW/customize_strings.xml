@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- CDR增加的 -->
+    <string name="nightvision_setting">夜視燈</string>
+    <string name="whitebalance_setting">白平衡</string>
+    <string name="exposure_setting">亮度</string>
+    <string name="color_setting">顔色</string>
+    <string name="contrast_setting">對比度</string>
+    <string name="more_setting">設置</string>
+    
+    <string name="whitebalance_name">白平衡</string>
+    <string name="color_name">顔色</string> 
+    <string name="exposure_name">亮度</string>
+    <string name="contrast_name">對比度</string>
+    
+    <string name="whitebalance_auto">自動</string>
+    <string name="whitebalance_sunny">晴天</string>
+    <string name="whitebalance_cloudy">陰天</string>
+    <string name="whitebalance_incandescent">白熾光</string>
+    <string name="whitebalacn_fluorescent">熒光</string>
+    
+    
+    
+    <string name="intelligent_detect">智能檢測</string>
+    <string name="motion_detect">移動偵測</string>
+    
+    <string name="video_quality">錄像質量</string>
+    <string name="picture_quality">照相質量</string>
+    <string name="video_time">錄像時間</string>
+    
+    <string name="nightvision">夜視燈</string>
+    <string name="camera_switch">攝像頭開關</string>
+    <string name="video_on_power">上電錄像</string>
+    <string name="screen_sleep">屏幕休眠</string>
+    
+    <string name="date">日期</string>
+    <!-- <string name="time">时间</string> -->
+    <string name="time_watermark">時間水印</string>
+    <string name="language">語言</string>
+    
+    <string name="sd1_format">格式化SD卡</string>
+    <string name="sd2_format">格式化SD2</string>
+    <string name="text_flip">設置镜像</string>
+    <string name="reset">恢複出廠設置</string>
+    <string name="update">更新</string>
+    <string name="back_camera_flip">后攝像頭镜像</string>
+    
+    
+    <string name="video_quality_720p">720P</string>
+    <string name="video_quality_1080p">1080P</string>
+    <string name="video_quality_1600p">1600P</string>
+    <string name="video_quality_1296p">1296P</string>
+    
+    <string name="picture_quality_2m">2M</string>
+    <string name="picture_quality_3m">3M</string>
+	<string name="picture_quality_4m">4M</string>
+    <string name="picture_quality_5m">5M</string>
+	<string name="picture_quality_6m">6M</string>
+    <string name="picture_quality_8m">8M</string>
+    
+    <string name="video_time_1min">1min</string>
+    <string name="video_time_2min">3mins</string>
+    <string name="video_time_3min">5mins</string>
+    <string name="video_time_5min">5min</string>
+    
+    <string name="nightvision_auto">自動</string>
+    <string name="nightvision_on">開啓</string>
+    <string name="nightvision_off">關閉</string>
+    
+    <string name="camera_switch_front_rear">前+後</string>
+    <string name="camera_switch_front">前</string>
+    <string name="camera_switch_rear">後</string>
+    
+    <string name="screen_sleep_20s">20s</string>
+    <string name="screen_sleep_30s">30s</string>
+    <string name="screen_sleep_1min">1min</string>
+    <string name="screen_sleep_off">關閉</string>
+    
+    <string name="ok">確定</string>
+    <string name="cancel">取消</string>
+    
+    <string name="language_simplified_chinese">中文简体</string>
+    <string name="language_traditional_chinese">中文繁體</string>
+    <string name="language_english">english</string>
+    
+    <string name="sd1_format_or_not">  格式化SD卡將會刪除所有數據，是否格式化SD卡?</string>
+    <string name="sd2_format_or_not">是否格式化SD1?</string>
+    
+    <string name="reset_or_not">是否恢複出廠設置?</string>
+
+    <string name="update_or_not">是否更新？</string>
+    <string name="update_already_newest">已是最新版本</string>
+    
+    <string name="warning">提示</string>
+    <string name="whether_remove_protect_video_file">這是壹個碰撞檢測保護文件, 是否刪除?</string>
+    <string name="press_back_again_to_quit">再按壹次退出</string>
+    <string name="install_adjust">車道線校准</string>
+	
+    <string name="impact_protected_file">碰撞保護文件</string>
+    
+    <string name="record_browser">錄像浏覽</string>
+    <string name="goto_record_browser">停止錄像，並前往查看錄像文件?</string>
+    <string name="goto_settings">停止錄像，並前往設置?</string>
+    
+    <string name="distance_detect_level">前車碰撞靈敏度</string>
+    <string name="distance_leve_1">演示模式</string>
+    <string name="distance_leve_1_40">高</string>
+    <string name="distance_leve_2">中</string>
+    <string name="distance_leve_3">低</string>
+    <string name="distance_leve_4">關閉</string>
+    
+    <string name="gsensor_lock_level">碰撞鎖定靈敏度</string>
+    <string name="gsensor_level_1">高</string>
+    <string name="gsensor_level_2">中</string>
+    <string name="gsensor_level_3">低</string>
+    <string name="gsensor_level_4">關</string>
+    <string name="gsensor_alarm_level">停車碰撞報警靈敏度</string>
+    <string name="alarm_level_1">高</string>
+    <string name="alarm_level_2">中</string>
+    <string name="alarm_level_3">低</string>
+    
+    <string name="car_line_level">車道靈敏度</string>
+    <string name="car_line_level_1">高</string>
+    <string name="car_line_level_2">中</string>
+    <string name="car_line_level_3">低</string>
+    
+  	<string name="camera_flip">後視鏡像</string>
+  	<string name="flip_enable">開啓</string>
+  	<string name="flip_disable">關閉</string>
+  	
+  	<string name="app_exit_dialog_title">退出</string>
+  	<string name="app_exit_dialog_msg">停止錄像並退出應用.</string>
+  	<string name="app_exit_background_run">後台錄像</string>
+  	<string name="format_sdcard_message">SD卡還未被格式化.</string>
+  	<string name="dialog_empty">沒有數據</string>
+  	<string name="space_no_enough">空間不足，請清除加鎖視頻和T卡視頻!</string>
+  	<string name="sdcard_not_found">請插入SD卡！</string>
+  	
+  	<string name="review_select_all">全選</string>
+  	<string name="review_unselect_all">全清</string>
+  	<string name="review_delect">删除</string>
+  	<string name="review_delect_file">刪除選中文件？</string>
+  	<string name="button_return">返回</string>
+  	<string name="device_busy">設備忙，稍候再試！</string>
+  	<string name="please_insert_back_cam">請插入後攝像頭！</string>
+  	
+  	<string-array name="adas_car_type">
+  	    <item>轎車</item>
+  	    <item>SUV</item>
+  	    <item>卡車</item>
+    </string-array>
+    <string-array name="adas_car_type_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    
+    <string name="car_type">車類型</string>
+    <string name="car_type_car">轎車</string>
+    <string name="car_type_suv">SUV</string>
+    <string name="car_type_truck">卡車</string>
+    <string name="select_car_type">請選擇汽車類型</string>
+    <string name="operating_camera">正在操作攝像頭!</string>
+    
+    <string name="shutting_down">正在關機</string>
+     <string name="kaishiluxiang">開始錄像</string>
+	 <string name="middlevideo">中錄錄像</string>
+	<string name="disconnectrecording">錄像已斷開\n長按開始錄像</string>
+    <!--正常-->
+	<string name="front_camera_text">前</string>
+	<string name="back_camera_text">後</string>
+    <!--前后颠倒-->
+<!--    <string name="front_camera_text">後</string>-->
+<!--    <string name="back_camera_text">前</string>-->
+    <!--只有后摄或不显示-->
+<!--    <string name="front_camera_text">""</string>-->
+<!--    <string name="back_camera_text">""</string>-->
+	<string name="right_camera_text">右</string>  
+</resources>
