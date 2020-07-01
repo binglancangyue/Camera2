@@ -694,10 +694,10 @@ public class WrapedRecorder implements SensorEventListener, AWRecorder.OnErrorLi
 //                                if (CustomValue.ONLY_ONE_CAMERA && cameraIndex != 0) {
 //                                    mCamera = Camera.open(cameraIndex);
 //                                }
-                                if (CustomValue.ONLY_ONE_CAMERA) {
+                                if (!CustomValue.ONLY_ONE_CAMERA){
+                                      mCamera = Camera.open(cameraIndex);
+                                }else{
                                     mCamera = Camera.open(0);
-                                } else {
-                                    mCamera = Camera.open(cameraIndex);
                                 }
                                 if (cameraIndex == RecorderActivity.CAMERA_THIRD) {
                                     Log.d(TAG, "onlyone");
@@ -1078,6 +1078,7 @@ public class WrapedRecorder implements SensorEventListener, AWRecorder.OnErrorLi
                             // TODO Auto-generated catch block
                             e.printStackTrace();
                             mRecorder.release();
+
                             mRecorder = null;
                         } /*
                          * catch (IOException e) {// for MediaRecorder // TODO
