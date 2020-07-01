@@ -1080,6 +1080,7 @@ public class WrapedRecorder implements SensorEventListener, AWRecorder.OnErrorLi
                             // TODO Auto-generated catch block
                             e.printStackTrace();
                             mRecorder.release();
+
                             mRecorder = null;
                         } /*
                          * catch (IOException e) {// for MediaRecorder // TODO
